@@ -2,7 +2,7 @@
 Repositório do Laboratório do módulo 02 para o exame de certificação AZ-104. (Credits by TFTEC)
 
 
-<h2>Lab 02a Manage Subscriptions and Azure RBAC</h2>
+<h2>Lab 01 Manage Subscriptions and Azure RBAC</h2>
 
 <h3>Lab Scenario: </h3> 
 
