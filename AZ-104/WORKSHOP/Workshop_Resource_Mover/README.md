@@ -332,6 +332,73 @@ Valide os recursos a serem movimentados e clique novamente em initiate move:
 
 Aguarde novamente até a conclusão do processo. 
 
+Durante o processo algumas alterações importantes a ser feita. 
+
+Abra uma nova guia e no portal pesquise por Resource Group: 
+
+![image](https://user-images.githubusercontent.com/107069287/189399930-5c34b48b-5e22-4568-aa31-da1009f32264.png)
+
+Acesse o Resource Group RG-Destino: 
+
+![image](https://user-images.githubusercontent.com/107069287/189400032-5688baac-c223-4b2c-946a-e05599660e71.png)
+
+Em Overview acesse a máquina VM-Mover: 
+
+![image](https://user-images.githubusercontent.com/107069287/189400161-7fc2af66-55f3-4f68-a93f-9801080ab481.png)
+
+Vá ate a opção Networking: 
+
+![image](https://user-images.githubusercontent.com/107069287/189400259-d53975c8-9343-46f8-9f15-9fa163758ab8.png)
+
+Clique em Add inbound port rule e altere a regra criada para o novo ip privado: 
+
+![image](https://user-images.githubusercontent.com/107069287/189401409-c5916703-8356-4d81-8045-7b995ff3acfa.png)
+
+![image](https://user-images.githubusercontent.com/107069287/189401450-e1eed101-f79c-4006-b7af-306677907a7e.png)
+
+Copie o no ip público e teste novamente o acesso e veja se abre o site do IIS: 
+
+![image](https://user-images.githubusercontent.com/107069287/189401611-5a17ea64-2861-4e88-aa3d-0993c77c3142.png)
+
+<h3>OBS: Até essa etapa, o processo pode ser reversível, ou seja, a máquina ainda está fazendo a replicação e mantendo a máquina em sua origem. A partir de agora todos os passos a seguir serão definitivos. </h3>
+
+Após a conclusão, agora iremos fazer o commit nos recursos: 
+
+Selecione novamente os recursos e clique em commit move: 
+
+![image](https://user-images.githubusercontent.com/107069287/189402608-8b0770e9-dd9c-4122-9c95-852a2b608eae.png)
+
+Clique novamente em commit: 
+
+![image](https://user-images.githubusercontent.com/107069287/189402838-22a6278b-a755-412b-942c-1c9250f5bfb0.png)
+
+Aguarde até a conclusão do processo. 
+
+Duas condições: Caso você não queira deletar os recursos do Resource Group de Origem basta clicar na Opção Remove: 
+
+![image](https://user-images.githubusercontent.com/107069287/189404941-6d2cb3f2-96a0-4e7f-8638-b7333bbbe508.png)
+
+Agora caso queira deletar os recursos do RG-Origem utilize a opção Delete source: 
+
+![image](https://user-images.githubusercontent.com/107069287/189405221-374a9680-9c35-4557-b135-dcbbecce9d33.png)
+
+Nesse exemplo utilizaremos o Delete Reource, após acionar a opção digite yes para confirmar e clique em Delete source: 
+
+![image](https://user-images.githubusercontent.com/107069287/189406136-b5979980-762a-46e0-b0f7-0e38f96dbee1.png)
+
+Aguarde até a conclusão. 
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
