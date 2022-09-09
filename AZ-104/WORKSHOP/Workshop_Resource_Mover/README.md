@@ -320,6 +320,18 @@ Essa etapa é a etapa mais demorada, aguarde até ao término do processo:
 
 ![image](https://user-images.githubusercontent.com/107069287/189383318-837979d6-9aa0-4729-8700-fb8630807b7a.png)
 
+Após o processo de prepare note que as máquinas estão com o initiate move pending, estando nesse estágio podemos dar sequência no processo de moving. 
+
+Selecione novamente os recursos e clique em initiate move: 
+
+![image](https://user-images.githubusercontent.com/107069287/189398106-b866243c-af89-44af-ac95-c88609ff27df.png)
+
+Valide os recursos a serem movimentados e clique novamente em initiate move: 
+
+![image](https://user-images.githubusercontent.com/107069287/189398293-c2422d75-4b27-4b97-8a9d-9553606108b3.png)
+
+Aguarde novamente até a conclusão do processo. 
+
 
 
 
