@@ -151,7 +151,7 @@ Assim que VM for criada clique em go to resource:
 
 Em seguida rodaremos o script abaixo: 
 
-![image](https://user-images.githubusercontent.com/107069287/189164187-74b6f9e1-5ee8-405d-8b50-ae61c9986c5f.png)
+![image](https://user-images.githubusercontent.com/107069287/189364720-f676088b-5d9e-4a85-937c-c65a54b71843.png)
 
 Na aba lateral, role a barra até Operations e vá em Run Command: 
 
@@ -163,7 +163,7 @@ Em seguida clique em RunPowerShellScript:
 
 Em seguida cole o script na tela de Power Shell Script para instalarmos IIS e aguarde até a conclusão da execução do comando: 
 
-![image](https://user-images.githubusercontent.com/107069287/189165439-c81f947f-2a14-4a26-97c2-52809de04a4a.png)
+![image](https://user-images.githubusercontent.com/107069287/189367846-25809fa0-3667-42b0-88b9-d69f2e43338f.png)
 
 Na sequência iremos liberar o acesso a porta 80 na máquina para visualizarmos a página que criamos. 
 
@@ -195,11 +195,7 @@ Script:
 #Install IIS 
 Install-WindowsFeature -name Web-Server -IncludeManagementTools
 
-#Remove default him file 
-remove-item C:\inetpub\wwwroot\iisstart.htm
 
-#Add custom hrml file 
-Add-Content -Path "C:\interpub\wwwroot\iisstart.htm" -Value $("Live Azure Resource Mover -")
 
 
 
