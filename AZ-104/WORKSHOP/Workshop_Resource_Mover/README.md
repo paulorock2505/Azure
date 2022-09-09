@@ -190,10 +190,77 @@ Criaremos a regra conforme a imagem para o ip de destino configurado na máquina
 
 Clique em add. 
 
-Script: 
+Na sequência, no portal, pesquise por Azure Resourcer Mover: 
 
-#Install IIS 
-Install-WindowsFeature -name Web-Server -IncludeManagementTools
+![image](https://user-images.githubusercontent.com/107069287/189372621-2f29758c-273e-459a-bbed-494a97a053fa.png)
+
+Na tela principal, clique em Move Across Regions: 
+
+![image](https://user-images.githubusercontent.com/107069287/189372960-a4d78995-5ec6-42bf-9e89-c8bbafc55236.png)
+
+No primeiro campo preencha a sua região de origem e no segundo campo preencha a sua região de destino: 
+
+![image](https://user-images.githubusercontent.com/107069287/189373479-0aebf5da-ccc8-44f7-aa22-f287fda0b3d0.png)
+
+Clique em Next. 
+
+Em seguida clique em Select Resource: 
+
+![image](https://user-images.githubusercontent.com/107069287/189373757-7fcd0440-4acc-43ed-9455-61bf65123d74.png)
+
+Note que aparecerá todos os recursos criados, nesse caso selecionaremos apenas o que precisamos movimentar: 
+
+![image](https://user-images.githubusercontent.com/107069287/189374008-10b204e7-07df-43f7-8a4f-4efa58de65b0.png)
+
+![image](https://user-images.githubusercontent.com/107069287/189374240-c957ac99-45d0-4d36-8dca-f9b830747a8a.png)
+
+Clique em Done. 
+
+Na próxima tela clique em Next: 
+
+![image](https://user-images.githubusercontent.com/107069287/189374587-3a01288d-9d27-49c7-87c6-ba8155cd85e4.png)
+
+Na próxima página marque a opção I understand that metadata information related to this move will be stored in Resource group - 'ResourceMoverRG-eastus-brazilsouth-brs' which will be created in the region - Brazil South. I am granting permissions to create a System Assigned Managed Identity on my behalf to access the resources in the subscription - Azure Pass – Sponsorship e na sequência clique em Proceed: 
+
+![image](https://user-images.githubusercontent.com/107069287/189374896-48f7e071-3e2f-4721-b065-c3240c87e386.png)
+
+OBS: Esse processo pode demorar um pouco mais que o norrmal, aguarde até a finalização desta etapa. 
+
+Durante o processo clique em Added resource to move para acompanhar essa etapa: 
+
+![image](https://user-images.githubusercontent.com/107069287/189375838-44e703f7-bdc8-4d5d-abc4-3191fb3420f6.png)
+
+Primeira etapa, clique em validate dependences para validar as dependências: 
+
+![image](https://user-images.githubusercontent.com/107069287/189376423-72046e36-e5e8-48f6-bcb3-5cd207087a77.png)
+
+Após a validação, note que alguns itens estão ainda aguardando a validação das dependências: 
+
+![image](https://user-images.githubusercontent.com/107069287/189377297-d5e70688-ff0e-4430-8be0-55a85f569d1a.png)
+
+Analisando o erro, note que o erro está apontando para um erro relacionado a Virtuan Network: 
+
+![image](https://user-images.githubusercontent.com/107069287/189377757-078cd058-8762-40fb-a647-845644c98282.png)
+
+Clique em add dependencies: 
+
+![image](https://user-images.githubusercontent.com/107069287/189377938-98d468d9-9070-4eb2-acc3-eca8ad633e33.png)
+
+E em seguida inclua as duas dependecias listadas: 
+
+![image](https://user-images.githubusercontent.com/107069287/189378079-cf5b79a8-8242-4b6a-88c1-2c90ee2771de.png)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
