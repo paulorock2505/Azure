@@ -388,6 +388,8 @@ Nesse exemplo utilizaremos o Delete Reource, após acionar a opção digite yes 
 
 Aguarde até a conclusão. 
 
+Após a conclusão dessa etapa todo o processo foi concluído com sucesso e todas as etapas concluídas. 
+
 
 
 
