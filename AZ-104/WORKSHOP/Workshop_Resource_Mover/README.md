@@ -246,9 +246,93 @@ Clique em add dependencies:
 
 ![image](https://user-images.githubusercontent.com/107069287/189377938-98d468d9-9070-4eb2-acc3-eca8ad633e33.png)
 
-E em seguida inclua as duas dependecias listadas: 
+E em seguida inclua as duas dependecias listadas e depois clique em Add dependencies: 
 
 ![image](https://user-images.githubusercontent.com/107069287/189378079-cf5b79a8-8242-4b6a-88c1-2c90ee2771de.png)
+
+Aguarde até o processo finalizar. 
+
+Corrigido as dependecias, novamente será solicitado que valide novamente. Clique em Validate Dependencies novamente e aguarde até a conclusão: 
+
+![image](https://user-images.githubusercontent.com/107069287/189378912-abeea699-fe2c-4d6a-b328-25cf0cec3168.png)
+
+OBS: Cada item que for dando erro, precisa ser corrigido manualmente item a item. 
+
+Note que novamente apresentamos outro erro, vamos analisa-lo:
+
+![image](https://user-images.githubusercontent.com/107069287/189379341-bf50fe66-be63-4773-976b-47b5c3fc62dc.png)
+
+Nesse caso o erro está indicando que precisamos fazer um commit em alguns resources groups. 
+
+Vamos alterar agora o Resource Group: 
+
+Clique no Resource group indicado na tela: 
+
+![image](https://user-images.githubusercontent.com/107069287/189379894-379b186c-2c0b-4781-b3cc-a0612549f437.png)
+
+Vamos alterar essa propriedade para o grupo de recursos que já criamos, RG-Destino: 
+
+![image](https://user-images.githubusercontent.com/107069287/189380148-f25e68b8-69c3-4b70-ad6c-b6d309a48dff.png)
+
+Clique em Save Changes e em seguida Save and Validate dependencies: 
+
+![image](https://user-images.githubusercontent.com/107069287/189380322-82c4e09e-84df-41f5-ab51-e51d00159edf.png)
+
+Aguarde novamente a validação. 
+
+Após a validação volte na tela anterior e ajuste o parametro da VNET: 
+
+![image](https://user-images.githubusercontent.com/107069287/189380840-94b8c23e-cc82-4bc0-83d3-0dca238d99bd.png)
+
+Neste caso vamos alterar para a VNET-Destino: 
+
+![image](https://user-images.githubusercontent.com/107069287/189380983-ad31523a-2e23-4657-996e-4d095a64fbff.png)
+
+Clique novamente em Save Changes e em seguida Save and Validate Dependencies: 
+
+![image](https://user-images.githubusercontent.com/107069287/189381119-4850009f-8134-40c8-8d79-d09f596da523.png)
+
+Após a validação agora daremos o commit nos dois recursos pendentes: 
+
+![image](https://user-images.githubusercontent.com/107069287/189381679-dde897cc-ebdf-44af-b9c3-2c23eff41df8.png)
+
+Marcamos os recursos e clicamos em commit. 
+
+Após essa etapa, concluiremos o processo dando o commit: 
+
+![image](https://user-images.githubusercontent.com/107069287/189382120-08ed6cbd-eec2-4f3d-90a4-c7f0bdd59503.png)
+
+Aguardamos novamente essa etapa concluir. 
+
+Note que a mensagem de erro que estava aparecendo anteriormente sumiu: 
+
+![image](https://user-images.githubusercontent.com/107069287/189382584-cef7a3ee-be0f-458c-935f-ded11a16cc49.png)
+
+Agora iremos selecionar todos os recursos que estão como prepare pending e iremos acionar o Prepare: 
+
+![image](https://user-images.githubusercontent.com/107069287/189383011-a516ffda-6e61-402f-8680-08869a0f4967.png)
+
+Valide novamente a preparação e clique em Prepare: 
+
+![image](https://user-images.githubusercontent.com/107069287/189383131-f2a95848-65e6-455d-9caa-49fbc278a7b7.png)
+
+Essa etapa é a etapa mais demorada, aguarde até ao término do processo: 
+
+![image](https://user-images.githubusercontent.com/107069287/189383318-837979d6-9aa0-4729-8700-fb8630807b7a.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
