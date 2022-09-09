@@ -388,4 +388,64 @@ Nesse exemplo utilizaremos o Delete Reource, após acionar a opção digite yes 
 
 Aguarde até a conclusão. 
 
+Após a conclusão o cenário ficará dessa maneira: 
+
+![image](https://user-images.githubusercontent.com/107069287/189408458-a346286c-5780-4565-99d2-f7e9aceb03b8.png)
+
+OBS: O disco da máquina precisa ir no RG-Origem e excluir manualmente. 
+
+Abra uma nova guia no portal e pesquise por Resource Group: 
+
+![image](https://user-images.githubusercontent.com/107069287/189408894-1487476f-7b15-48de-9310-8cc828dae422.png)
+
+Clique no RG-Origem: 
+
+![image](https://user-images.githubusercontent.com/107069287/189408962-6f792463-c24c-437b-8b0f-57d18bbfa354.png)
+
+Marque o disco conforme a imagem e clique em Delete: 
+
+![image](https://user-images.githubusercontent.com/107069287/189409081-3ef80e2e-e7a3-45ed-9606-6bc2894812ae.png)
+
+Confirme com digitando yes e em seguida clique em Delete: 
+
+![image](https://user-images.githubusercontent.com/107069287/189409181-411170d1-91fe-43d4-b8ac-269333ba1d2f.png)
+
+Em seguida iremos deletar o RG que foi criado para fazer a movimentação. 
+
+Novamente na opção do Resource Group, clicaremos na opção ResourceMoverRG-eastus-brazilsouth-brs: 
+
+![image](https://user-images.githubusercontent.com/107069287/189409454-2a0b7833-e19d-4fb5-ad59-ec5179097795.png)
+
+Primeiro iremos em Lock e retiraremos e iremos deletar o bloqueio de delete do recurso: 
+
+![image](https://user-images.githubusercontent.com/107069287/189409601-2584decb-a341-48cd-91fb-ffcf87183561.png)
+
+Remova os dois bloqueios clicando em Delete: 
+
+![image](https://user-images.githubusercontent.com/107069287/189409689-5b775bf6-6802-41d6-b213-e0f9dca15d6b.png)
+
+Vá até Overview e clique em Delete Resource Group: 
+
+![image](https://user-images.githubusercontent.com/107069287/189409792-b97c344d-3489-49db-8888-4f3ca17c5e16.png)
+
+Confirme digitando o grupo de recurso e em seguida clique em delete: 
+
+![image](https://user-images.githubusercontent.com/107069287/189409911-87168ead-99cf-445e-8fe9-3d6870965b21.png)
+
+Em Azure Resource Mover, vamos excluir os recursos movimentados clicando na opção Remove: 
+
+![image](https://user-images.githubusercontent.com/107069287/189410101-f01acc93-cacc-4656-aeb5-7c10bc3c0d75.png)
+
+Clique novamente em Remove: 
+
+![image](https://user-images.githubusercontent.com/107069287/189410168-a7213a45-4647-4a5e-8974-157026cf7da4.png)
+
+Preencha a pesquisa da microsoft: 
+
+![image](https://user-images.githubusercontent.com/107069287/189410328-9f41d616-4df9-4f7a-b497-3889619c29c7.png)
+
+Clique em Submit feedback and remove. 
+
+E aguarde até o término dessa etapa. 
+
 Após a conclusão dessa etapa todo o processo foi concluído com sucesso e todas as etapas concluídas. 
