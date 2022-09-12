@@ -45,7 +45,7 @@ Agora que você explorou os recursos básicos de administração do Azure associ
     <td>B2s</td>
   </tr>
  </table>
- <h6><i>OBS: Para este Laboratório, utilizaremos as mesmas estruturas das tasks anteriores.</i></h6>
+ <h6><i>OBS: Para este Laboratório, utilizaremos os mesmos Grupos de Recursos das tasks anteriores.</i></h6>
 
 No portal do azure, no campo de pesquisa, digite Resource Groups:
 
