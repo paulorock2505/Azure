@@ -171,9 +171,48 @@ No portal do Azure clique em Arm Template e em seguida cole o código e seguida 
 
 ![image](https://user-images.githubusercontent.com/107069287/189719496-ed1c51dc-b6d4-4ed0-ae55-4ee3267afaf6.png)
 
-
-
 Finalizado esta etapa, iremos fazer o deploy da máquina a partir do template que geramos. 
+
+No portal no campo de pesquisa, pesquise novamente por template: 
+
+![image](https://user-images.githubusercontent.com/107069287/189721009-65e17031-1a36-4c84-bc11-3022ef5d5e5e.png)
+
+Clique nos ... (3 pontos) na lateral do template que criamos e na sequência clique em deploy:
+
+![image](https://user-images.githubusercontent.com/107069287/189721174-e3d2d3f7-9d0f-4bf8-8981-76c6d94c0655.png)
+
+Nessa opção, os parameters não são salvos no template, logo iremos precisar fazer o upload do arquivo e editar conforme a nossa necessidade. 
+
+Em Custom deployment, clique em edit parameters: 
+
+![image](https://user-images.githubusercontent.com/107069287/189721468-0f9f69ba-bf1c-4534-b84b-64a53ac12170.png)
+
+Em seguida clique em Load File: 
+
+![image](https://user-images.githubusercontent.com/107069287/189721605-8453431a-68dd-4f51-aabf-ecf4efea4169.png)
+
+Busque o arquivo parameters salvo no seu computador e em seguida clique em abrir para fazer o upload do arquivo e em seguida clique em save. 
+
+Feito essa etapa edite os campos para valores diferentes, são eles: 
+- Resource Group: RG-LAB-02
+- Network Interface name: vm-arm0282
+- Network Security Group: VM-ARM02-nsg
+- Public IP Address Name: VM-ARM02-ip
+- Virtual Machine Name: VM-ARM02
+- Virtual Machine Computer Name: VM-ARM02
+- Virtual Machine RG: RG-LAB-02
+- Password: Utilize um password de sua preferência*** 
+
+![image](https://user-images.githubusercontent.com/107069287/189723419-2ccf066e-b339-4158-8a9b-51e953fa4e18.png)
+![image](https://user-images.githubusercontent.com/107069287/189723468-fc1707e2-ecf4-49bd-b39a-331a54a24734.png)
+![image](https://user-images.githubusercontent.com/107069287/189723510-878becec-8d31-45c4-a801-8a904386bd36.png)
+
+Por fim clique em Purchase. 
+
+Aguarde até o términi do Deploy da máquina. 
+
+
+
 
 
 
