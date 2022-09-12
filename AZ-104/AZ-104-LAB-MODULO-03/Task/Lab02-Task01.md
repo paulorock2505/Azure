@@ -46,6 +46,7 @@ Agora que você explorou os recursos básicos de administração do Azure associ
   </tr>
  </table>
  <h6><i>OBS: Para este Laboratório, utilizaremos as mesmas estruturas das tasks anteriores.</i></h6>
+
 No portal do azure, no campo de pesquisa, digite Resource Groups:
 
 ![image](https://user-images.githubusercontent.com/107069287/189681759-ed7d2108-5464-4dee-adb7-0e8985e488db.png)
