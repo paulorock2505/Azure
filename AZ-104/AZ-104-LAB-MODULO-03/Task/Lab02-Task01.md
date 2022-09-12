@@ -194,18 +194,19 @@ Em seguida clique em Load File:
 Busque o arquivo parameters salvo no seu computador e em seguida clique em abrir para fazer o upload do arquivo e em seguida clique em save. 
 
 Feito essa etapa edite os campos para valores diferentes, são eles: 
-- Resource Group: RG-LAB-02
+- Resource Group: RG-LAB-01
 - Network Interface name: vm-arm0282
 - Network Security Group: VM-ARM02-nsg
 - Public IP Address Name: VM-ARM02-ip
 - Virtual Machine Name: VM-ARM02
 - Virtual Machine Computer Name: VM-ARM02
-- Virtual Machine RG: RG-LAB-02
+- Virtual Machine RG: RG-LAB-01
 - Password: Utilize um password de sua preferência*** 
 
-![image](https://user-images.githubusercontent.com/107069287/189723419-2ccf066e-b339-4158-8a9b-51e953fa4e18.png)
-![image](https://user-images.githubusercontent.com/107069287/189723468-fc1707e2-ecf4-49bd-b39a-331a54a24734.png)
-![image](https://user-images.githubusercontent.com/107069287/189723510-878becec-8d31-45c4-a801-8a904386bd36.png)
+![image](https://user-images.githubusercontent.com/107069287/189724898-fa3474e5-8184-48a7-b89d-4b44b0d4f546.png)
+![image](https://user-images.githubusercontent.com/107069287/189724953-e4081beb-7ceb-4cdf-bf67-08dc1105beec.png)
+![image](https://user-images.githubusercontent.com/107069287/189725011-14c6ac5a-1648-438e-bde4-f84735516f0e.png)
+
 
 Por fim clique em Purchase. 
 
