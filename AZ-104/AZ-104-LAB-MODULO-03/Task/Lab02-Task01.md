@@ -236,6 +236,11 @@ Edite os campos para valores diferentes, são eles:
 ![image](https://user-images.githubusercontent.com/107069287/189726544-9857609f-85b5-4a05-be5b-43b00bddcd22.png)
 ![image](https://user-images.githubusercontent.com/107069287/189726590-393c19a4-36f3-4a3a-a024-4e554a7f1ed5.png)
 
-Clique em Purchase. 
+Clique em Review + Create e em seguida create. 
 
 Aguarde até o término do Deploy da máquina. 
+
+Opcional: Caso queira fazer o acesso via ssh as máquinas Linux que criamos, basta copiar o endereço publico na aba Overview das máquinas e acessar usando o comando abaixo no powershell: 
+- *ssh -p usuario_cadastrado@ip_publico_da_vm 
+- *onde: usuário_cadastrado = usuario cadastrado na máquin dentro do portal. 
+- *ip_publico_da_vm = ip publico gerado no overview do portal azure.  
