@@ -4,16 +4,7 @@
 
 Agora que você explorou os recursos básicos de administração do Azure associados ao provisionamento de recursos e à organização com base em grupos de recursos usando o portal do Azure, é necessário executar a tarefa equivalente usando os modelos do Azure Resource Manager. 
 
-Objetivos: 
-
-Tarefa 1: Implante um modelo ARM usando um deploy seu como base. 
-
-Tarefa 2: Implante recursos através de um ARM diretamente do GitHub. 
-
-<table border="1">    
-  <tr>
-    <th colspan="1"><h3>Objetivos:</h3></th> 
-</table>
+<h3>Objetivos:</h3>
 
 <table border="1">    
   <tr>
