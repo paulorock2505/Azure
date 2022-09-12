@@ -117,6 +117,65 @@ Em Tags, colocaremos o padrão conforme a imagem:
 
 Clique em Next Review + Create e em seguida Create para criarmos a máquina. 
 
+Antes de irmos par o Recurso, na tela de criação do Recurso, iremos fazer o download do Template: 
+
+![image](https://user-images.githubusercontent.com/107069287/189710631-a68352da-46d4-4e7b-82af-285f00aa816b.png)
+
+Também adicionaremos o template em nossa biblioteca. Clique em Template: 
+
+![image](https://user-images.githubusercontent.com/107069287/189715054-3d3af519-c447-4fae-976d-672b3d295206.png)
+
+Clique em Add to library:
+
+Preencha os campos name, Resource Group, neste exemplo coloquei com o RG-LAB-01 e version (v1, 1.0, etc): 
+
+![image](https://user-images.githubusercontent.com/107069287/189715766-c219d72b-e487-4b68-b92c-bc83455930ca.png)
+![image](https://user-images.githubusercontent.com/107069287/189715789-b3baf2a2-5c41-4390-8a5a-e81ba7ad3037.png)
+
+Clique em Next. 
+
+Na próxima etapa, podemos customizar nosso template da forma que quisermos, nesse exemplo mantive o padrão do template: 
+
+![image](https://user-images.githubusercontent.com/107069287/189715997-95c8e43c-0ee6-4ded-98a6-79369ea511bb.png)
+
+Em tags mantemos os parâmetros abaixo: 
+
+![image](https://user-images.githubusercontent.com/107069287/189716155-cae681a2-093e-48c1-bfad-1f02b3a701a3.png)
+
+Clique em Review + Create e em seguida Create. 
+
+Neste exemplo vamos salvar o template baseado nos arquivos que fizemos o download: 
+
+No portal, no campo de pesquisa digite templates: 
+
+![image](https://user-images.githubusercontent.com/107069287/189718847-247ba9ae-4c68-4512-888b-9d8bf5c8cd90.png)
+
+Clique nos ... (3 pontos) na lateral do template que acabamos de criar e na sequência clique em edit:
+
+![image](https://user-images.githubusercontent.com/107069287/189719141-43144998-e168-42ad-add5-8659ffd872ef.png)
+
+Abra o template em um editor de texto da sua preferência (no exemplo utilizei o Visual Studio) copie o código todo: 
+
+![image](https://user-images.githubusercontent.com/107069287/189719329-0ea96e1e-be95-4685-97dc-9c6ff3e0e65e.png)
+
+No portal do Azure clique em Arm Template e em seguida cole o código e seguida clique em Save: 
+
+![image](https://user-images.githubusercontent.com/107069287/189719496-ed1c51dc-b6d4-4ed0-ae55-4ee3267afaf6.png)
+
+
+
+Finalizado esta etapa, iremos fazer o deploy da máquina a partir do template que geramos. 
+
+Na tela inicial do portal, no campo de pesquisa, digite template: 
+
+![image](https://user-images.githubusercontent.com/107069287/189713871-4bc574b4-9732-4eab-a4c9-39c87019f062.png)
+
+Em seguida clique em create: 
+
+![image](https://user-images.githubusercontent.com/107069287/189713953-ac1eae1a-e33a-41bc-b6b9-292ab5584350.png)
+
+
+
 
 
 
