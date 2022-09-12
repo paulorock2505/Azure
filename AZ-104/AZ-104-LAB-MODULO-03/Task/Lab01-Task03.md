@@ -119,6 +119,13 @@ Note que ao deletar o recurso nos deparamos com o erro abaixo:
 
 Ou seja, o usuário possui permissão para criar os recursos, mas não tem permissão para deletar o recurso conforme a política de bloqueio que aplicamos no Resource Group. 
 
+Algumas observaçõs: 
+
+- Os Locks só são removidos com o usuário que possui privilégio de administrador da subscription ou do RG. 
+- Em storage account, caso o lock de read only estiver aplicado, o usuário não consegue visualizar as Access Key do storage. 
+
+
+
 
 
 
