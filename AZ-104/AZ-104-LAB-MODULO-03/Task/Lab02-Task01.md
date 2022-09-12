@@ -132,7 +132,16 @@ Preencha os campos name, Resource Group, neste exemplo coloquei com o RG-LAB-01 
 ![image](https://user-images.githubusercontent.com/107069287/189715766-c219d72b-e487-4b68-b92c-bc83455930ca.png)
 ![image](https://user-images.githubusercontent.com/107069287/189715789-b3baf2a2-5c41-4390-8a5a-e81ba7ad3037.png)
 
+Na tela inicial do portal, no campo de pesquisa, digite template: 
+
+![image](https://user-images.githubusercontent.com/107069287/189713871-4bc574b4-9732-4eab-a4c9-39c87019f062.png)
+
+Em seguida clique em create: 
+
+![image](https://user-images.githubusercontent.com/107069287/189713953-ac1eae1a-e33a-41bc-b6b9-292ab5584350.png)
+
 Clique em Next. 
+
 
 Na próxima etapa, podemos customizar nosso template da forma que quisermos, nesse exemplo mantive o padrão do template: 
 
@@ -166,13 +175,7 @@ No portal do Azure clique em Arm Template e em seguida cole o código e seguida 
 
 Finalizado esta etapa, iremos fazer o deploy da máquina a partir do template que geramos. 
 
-Na tela inicial do portal, no campo de pesquisa, digite template: 
 
-![image](https://user-images.githubusercontent.com/107069287/189713871-4bc574b4-9732-4eab-a4c9-39c87019f062.png)
-
-Em seguida clique em create: 
-
-![image](https://user-images.githubusercontent.com/107069287/189713953-ac1eae1a-e33a-41bc-b6b9-292ab5584350.png)
 
 
 
