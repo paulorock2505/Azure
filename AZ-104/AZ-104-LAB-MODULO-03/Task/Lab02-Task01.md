@@ -15,3 +15,34 @@ Agora que você explorou os recursos básicos de administração do Azure associ
     <td>Implante recursos através de um ARM diretamente do GitHub.</td>
   </tr>
  </table>
+ 
+ <table border="1">    
+  <tr>
+    <th colspan="1">Resource Group</th> 
+</table>
+
+<table border="1">    
+  <tr>
+    <th colspan="1">Setting</th>  	              
+    <th colspan="2">Value</th>
+  </tr>
+<td>Resource Group</td>
+    <td>RG-LAB-01</td>
+  </tr>
+  <tr>
+    <td>Region </td>
+    <td>East US 2</td>
+  </tr>
+  <td>Name</td>
+    <td>VM-ARM-01</td>
+  </tr>
+  <tr>
+    <td>Image</td>
+    <td>Linux Ubuntu</td>
+  </tr>
+  <tr>
+    <td>Size</td>
+    <td>B2s</td>
+  </tr>
+ </table>
+ 
