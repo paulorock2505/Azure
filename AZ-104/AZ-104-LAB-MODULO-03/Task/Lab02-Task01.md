@@ -12,7 +12,7 @@ Tarefa 2: Implante recursos através de um ARM diretamente do GitHub.
 
 <table border="1">    
   <tr>
-    <th colspan="1">Objetivos:</th> 
+    <th colspan="1"><h3>Objetivos:</h3></th> 
 </table>
 
 <table border="1">    
