@@ -124,6 +124,7 @@ Algumas observaçõs:
 - Os Locks só são removidos com o usuário que possui privilégio de administrador da subscription ou do RG. 
 - Em storage account, caso o lock de read only estiver aplicado, o usuário não consegue visualizar as Access Key do storage. 
 
+Ao término da atividade remova os Locks aplicados em cada recurso. 
 
 
 
