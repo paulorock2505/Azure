@@ -209,26 +209,6 @@ Feito essa etapa edite os campos para valores diferentes, são eles:
 
 Por fim clique em Purchase. 
 
-Aguarde até o términi do Deploy da máquina. 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Aguarde até o término do Deploy da máquina. 
 
 
