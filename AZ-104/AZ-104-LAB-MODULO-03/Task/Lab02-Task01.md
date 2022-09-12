@@ -212,4 +212,30 @@ Por fim clique em Purchase.
 
 Aguarde até o término do Deploy da máquina. 
 
+Faremos agora uma nova máquina em outro formato de Template. 
 
+Após a criação, vá em Notifications e clique em Deployment Succeeded: 
+
+![image](https://user-images.githubusercontent.com/107069287/189725961-1e48d09a-b262-4e35-891e-2bbba3d87a30.png)
+
+Vá na opção Template e clique em Deploy:
+
+![image](https://user-images.githubusercontent.com/107069287/189726146-63368fc2-4ee8-49af-8f3d-440c78b727bf.png)
+
+Edite os campos para valores diferentes, são eles: 
+- Resource Group: RG-LAB-01
+- Network Interface name: vm-arm0382
+- Network Security Group: VM-ARM03-nsg
+- Public IP Address Name: VM-ARM03-ip
+- Virtual Machine Name: VM-ARM03
+- Virtual Machine Computer Name: VM-ARM03
+- Virtual Machine RG: RG-LAB-01
+- Password: Utilize um password de sua preferência*** 
+
+![image](https://user-images.githubusercontent.com/107069287/189726421-207d0202-226d-4e77-b23b-8a69bdbe7823.png)
+![image](https://user-images.githubusercontent.com/107069287/189726544-9857609f-85b5-4a05-be5b-43b00bddcd22.png)
+![image](https://user-images.githubusercontent.com/107069287/189726590-393c19a4-36f3-4a3a-a024-4e554a7f1ed5.png)
+
+Clique em Purchase. 
+
+Aguarde até o término do Deploy da máquina. 
