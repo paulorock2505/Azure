@@ -22,6 +22,37 @@ Agora que você explorou os recursos básicos de administração do Azure associ
  
  <h3>Task 3:	Iniciar uma sessão do PowerShell no Cloud Shell do Azure e criar uma VM.</h3>
 
+ <table border="1">    
+  <tr>
+    <th colspan="1">Virtual Machine</th> 
+</table>
+
+<table border="1">    
+  <tr>
+    <th colspan="1">Setting</th>  	              
+    <th colspan="2">Value</th>
+  </tr>
+<td>Resource Group</td>
+    <td>RG-LAB-03</td>
+  </tr>
+  <tr>
+    <td>Region </td>
+    <td>East US 2</td>
+  </tr>
+   <tr>
+    <td>Name</td>
+    <td>VM-PS01</td>
+  </tr>
+   <tr>
+    <td>Image</td>
+    <td>Windows Server 2019</td>
+  </tr>
+   <tr>
+    <td>Size</td>
+    <td>B2s</td>
+  </tr>
+ </table>
+ 
 
 
 #Variables for common values
