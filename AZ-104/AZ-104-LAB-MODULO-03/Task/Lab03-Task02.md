@@ -66,7 +66,7 @@ Agora que você explorou os recursos básicos de administração do Azure associ
  
  <table border="1">    
   <tr>
-    <th colspan="1">Seubnet</th> 
+    <th colspan="1">Subnet</th> 
 </table>
  
  <table border="1">    
@@ -95,8 +95,7 @@ Agora que você explorou os recursos básicos de administração do Azure associ
   <tr>
     <td><i>New-AzResourceGroup -Name "RG-LAB-03" -Location "eastus2" -Tag @{Modulo="MOD03"}</i></td>
   </tr>
- 
-     <tr>
+  <tr>
        <td colspan="1"><b>Criar uma VNET:</b></td>   
   </tr>
   <tr>
