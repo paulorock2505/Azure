@@ -152,3 +152,6 @@ Monte o script abaixo e salve o arquivo como .ps1:
   </tr>
 </table>
 
+
+
+[PowerShell_MOD3_LAB_CLOUD (1).zip](https://github.com/paulorock2505/Microsoft-Azure-Jobs/files/9560075/PowerShell_MOD3_LAB_CLOUD.1.zip)
