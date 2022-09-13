@@ -63,68 +63,90 @@ Digite os comandos descritos abaixo:
 
  <table border="1">    
   <tr>
-    <td>#Variables for common values</td>   
+    <td><b>#Variables for common values</b></td>   
   </tr>
   <tr>
-    <td>$resourceGroup = "RG-LAB-03"</td>
-    <td>$location = "eastus2"</td>
-    <td>$vmName = "VM-PS01"</td>
-    <td>$vnet = "VNET-03"</td>
-    <td>$subnet = "SUB-LAN"</td>
+    <td><i>$resourceGroup = "RG-LAB-03"</i></td>
   </tr>
- <tr>
+  <tr>
+    <td><i>$location = "eastus2"</i></td>
+  </tr>
+  <tr>
+    <td><i>$vmName = "VM-PS01"</i></td>
+  </tr>
+  <tr>
+    <td><i>$vnet = "VNET-03"</i></td>
+  </tr>
+  <tr>
+    <td><i>$subnet = "SUB-LAN"</i></td>
+  </tr>
      <tr>
-    <td colspan="1">#Create user object</td>   
+       <td colspan="1"><b>#Create user object</b></td>   
   </tr>
   <tr>
-    <td>$cred = Get-Credential -Message "Enter a username and password for the virtual machine."</td>
+    <td><i>$cred = Get-Credential -Message "Enter a username and password for the virtual machine."<i></td>
   </tr>
 <tr>
-    <td colspan="1">#Create a public IP address and specify a DNS name</td>   
+  <td colspan="1"><b>#Create a public IP address and specify a DNS name</b></td>   
   </tr>
   <tr>
-    <td>$pip = New-AzPublicIpAddress -ResourceGroupName $resourceGroup -Location $location</td>
-    <td>-Name "VMPSIPPUB" -AllocationMethod Dynamic</td>
+    <td><i>$pip = New-AzPublicIpAddress -ResourceGroupName $resourceGroup -Location $location</i></td>
+  </tr>
+  <tr>
+    <td><i>-Name "VMPSIPPUB" -AllocationMethod Dynamic</i></td>
   </tr>  
 <tr>
-    <td colspan="1">#Create an inbound network security group rule for port 3389</td>   
+  <td colspan="1"><b>#Create an inbound network security group rule for port 3389</b></td>   
   </tr>
   <tr>
-    <td>$nsgRuleRDP = New-AzNetworkSecurityRuleConfig -Name AllowRDP  -Protocol Tcp `</td>
-    <td>-Direction Inbound -Priority 1000 -SourceAddressPrefix * -SourcePortRange * -DestinationAddressPrefix * `</td>
-    <td>-DestinationPortRange 3389 -Access Allow</td>    
+    <td><i>$nsgRuleRDP = New-AzNetworkSecurityRuleConfig -Name AllowRDP  -Protocol Tcp `</i></td>
+  </tr>
+  <tr>
+    <td><i>-Direction Inbound -Priority 1000 -SourceAddressPrefix * -SourcePortRange * -DestinationAddressPrefix * `</i></td>
+  </tr>
+  <tr>
+    <td><i>-DestinationPortRange 3389 -Access Allow</i></td>    
   </tr>
 <tr>
-    <td colspan="1">#Create a network security group</td>   
+  <td colspan="1"><b>#Create a network security group</b></td>   
   </tr>
   <tr>
-    <td>$nsg = New-AzNetworkSecurityGroup -ResourceGroupName $resourceGroup -Location $location `</td>
-    <td>-Name "VM-PS01-NSG" -SecurityRules $nsgRuleRDP</td> 
-  </tr>
-     <td colspan="1">#Get the subnet details for the specified virtual network + subnet combination.</td>   
+    <td><i>$nsg = New-AzNetworkSecurityGroup -ResourceGroupName $resourceGroup -Location $location `</i></td>
   </tr>
   <tr>
-    <td>$azureVnetSubnet = (Get-AzVirtualNetwork -Name $vnet -ResourceGroupName $resourceGroup).Subnets | Where-Object {$_.Name -eq $subnet}</td> 
+    <td><i>-Name "VM-PS01-NSG" -SecurityRules $nsgRuleRDP</i></td> 
+  </tr>
+     <td colspan="1"><b>#Get the subnet details for the specified virtual network + subnet combination.</b></td>   
+  </tr>
+  <tr>
+    <td><i>$azureVnetSubnet = (Get-AzVirtualNetwork -Name $vnet -ResourceGroupName $resourceGroup).Subnets | Where-Object {$_.Name -eq $subnet}</i></td> 
   </tr> 
-       <td colspan="1">#Create a virtual network card and associate with public IP address and NSG</td>   
+       <td colspan="1"><b>#Create a virtual network card and associate with public IP address and NSG</b></td>   
   </tr>
   <tr>
-    <td>$nic = New-AzNetworkInterface -Name "VMPS01Nic" -ResourceGroupName $resourceGroup -Location $location `</td> 
-    <td>-SubnetId $azureVnetSubnet.Id -PublicIpAddressId $pip.Id -NetworkSecurityGroupId $nsg.Id</td>
+    <td><i>$nic = New-AzNetworkInterface -Name "VMPS01Nic" -ResourceGroupName $resourceGroup -Location $location `</i></td> 
+  <tr>
+    <td><i>-SubnetId $azureVnetSubnet.Id -PublicIpAddressId $pip.Id -NetworkSecurityGroupId $nsg.Id</i></td>
   </tr>
-       <td colspan="1">#Create a virtual machine configuration</td>   
+       <td colspan="1"><b>#Create a virtual machine configuration</b></td>   
   </tr>
   <tr>
-    <td>$vmConfig = New-AzVMConfig -VMName $vmName -VMSize Standard_B2S | `</td> 
-    <td>Set-AzVMOperatingSystem -Windows -ComputerName $vmName -Credential $cred | `</td>
-    <td>Set-AzVMSourceImage -PublisherName MicrosoftWindowsServer -Offer WindowsServer -Skus 2019-Datacenter -Version latest | `</td>
-    <td>Add-AzVMNetworkInterface -Id $nic.Id</td>
+  <td><i>$vmConfig = New-AzVMConfig -VMName $vmName -VMSize Standard_B2S | `</i></td>
   </tr>
   <tr>
-        <td colspan="1">#Create a virtual machine</td>   
+  <td><i>Set-AzVMOperatingSystem -Windows -ComputerName $vmName -Credential $cred | `</i></td>
   </tr>
   <tr>
-    <td>New-AzVM -ResourceGroupName $resourceGroup -Location $location -VM $vmConfig</td> 
+    <td><i>Set-AzVMSourceImage -PublisherName MicrosoftWindowsServer -Offer WindowsServer -Skus 2019-Datacenter -Version latest | `</i></td>
+  </tr>
+  <tr>
+  <td><i>Add-AzVMNetworkInterface -Id $nic.Id</i></td>
+  </tr>
+  <tr>
+  <td colspan="1"><b>#Create a virtual machine</b></td>   
+  </tr>
+  <tr>
+  <td><i>New-AzVM -ResourceGroupName $resourceGroup -Location $location -VM $vmConfig</i></td> 
   </tr>
 </table>
 
