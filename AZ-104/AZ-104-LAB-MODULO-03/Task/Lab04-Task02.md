@@ -67,3 +67,9 @@
     <td>10.4.0.0/24</td>
   </tr>
  </table>
+ 
+ #Criar Resource Group:
+az group create --location eastus2 --name "RG-LAB-04" --tags "Modulo=MOD03"
+
+#Criar uma VNET e uma Subnet:
+az network vnet create --name "VNET-04" --resource-group “RG-LAB-04” --address-prefix 10.4.0.0/16 --subnet-name "SUB-LAN" --subnet-prefix 10.4.0.0/24
