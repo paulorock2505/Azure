@@ -123,7 +123,7 @@ Agora que você explorou os recursos básicos de administração do Azure associ
     <td><i>-VirtualNetwork $virtualNetwork</i></td>
   </tr>  
 <tr>
-  <td colspan="1"><b>Setar a Subsnet criada na VNET existente</b></td>   
+  <td colspan="1"><b>Setar a Subnet criada na VNET existente</b></td>   
   </tr>
   <tr>
     <td><i>$virtualNetwork | Set-AzVirtualNetwork</i></td>
