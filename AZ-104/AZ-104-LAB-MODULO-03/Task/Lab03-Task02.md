@@ -22,4 +22,68 @@ Agora que você explorou os recursos básicos de administração do Azure associ
  
  <h3>Task 2:	Criar um Resource Group, uma VNET e uma Subnet.</h3>
  
+ <table border="1">    
+  <tr>
+    <th colspan="1">Resource Group</th> 
+</table>
+
+<table border="1">    
+  <tr>
+    <th colspan="1">Setting</th>  	              
+    <th colspan="2">Value</th>
+  </tr>
+<td>Resource Group</td>
+    <td>RG-LAB-03</td>
+  </tr>
+  <tr>
+    <td>Region </td>
+    <td>East US 2</td>
+  </tr>
+ </table>
  
+ <table border="1">    
+  <tr>
+    <th colspan="1">Vnet</th> 
+</table>
+ 
+ <table border="1">    
+  <tr>
+    <th colspan="1">Setting</th>  	              
+    <th colspan="2">Value</th>
+  </tr>
+<td>Vnet Name</td>
+    <td>VNET-03</td>
+  </tr>
+  <tr>
+    <td>Region </td>
+    <td>East US 2</td>
+  </tr>
+  <tr>
+    <td>Address</td>
+    <td>10.3.0.0/16</td>
+  </tr>
+ </table>
+ 
+ <table border="1">    
+  <tr>
+    <th colspan="1">Seubnet</th> 
+</table>
+ 
+ <table border="1">    
+  <tr>
+    <th colspan="1">Virtual Machine</th> 
+</table>
+
+<table border="1">    
+  <tr>
+    <th colspan="1">Setting</th>  	              
+    <th colspan="2">Value</th>
+  </tr>
+<td>Subnet Name</td>
+    <td>SUB-LAN</td>
+  </tr>
+  <tr>
+    <td>Address</td>
+    <td>10.3.0.0/24</td>
+  </tr>
+ </table>
