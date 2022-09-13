@@ -63,32 +63,31 @@ Digite os comandos descritos abaixo:
 
  <table border="1">    
   <tr>
-     <tr>
-    <th>#Variables for common values</th>   
+    <td>#Variables for common values</td>   
   </tr>
   <tr>
-    <th>- $resourceGroup = "RG-LAB-03"</th>
-    <th>- $location = "eastus2"</th>
-    <th>- $vmName = "VM-PS01"</th>
-    <th>- $vnet = "VNET-03"</th>
-    <th>- $subnet = "SUB-LAN"</th>
+    <td>$resourceGroup = "RG-LAB-03"</td>
+    <td>$location = "eastus2"</td>
+    <td>$vmName = "VM-PS01"</td>
+    <td>$vnet = "VNET-03"</td>
+    <td>$subnet = "SUB-LAN"</td>
   </tr>
  <tr>
      <tr>
-    <th colspan="1">#Create user object</th>   
+    <td colspan="1">#Create user object</td>   
   </tr>
   <tr>
     <td>$cred = Get-Credential -Message "Enter a username and password for the virtual machine."</td>
   </tr>
 <tr>
-    <th colspan="1">#Create a public IP address and specify a DNS name</th>   
+    <td colspan="1">#Create a public IP address and specify a DNS name</td>   
   </tr>
   <tr>
     <td>$pip = New-AzPublicIpAddress -ResourceGroupName $resourceGroup -Location $location</td>
     <td>-Name "VMPSIPPUB" -AllocationMethod Dynamic</td>
   </tr>  
 <tr>
-    <th colspan="1">#Create an inbound network security group rule for port 3389</th>   
+    <td colspan="1">#Create an inbound network security group rule for port 3389</td>   
   </tr>
   <tr>
     <td>$nsgRuleRDP = New-AzNetworkSecurityRuleConfig -Name AllowRDP  -Protocol Tcp `</td>
@@ -96,24 +95,24 @@ Digite os comandos descritos abaixo:
     <td>-DestinationPortRange 3389 -Access Allow</td>    
   </tr>
 <tr>
-    <th colspan="1">#Create a network security group</th>   
+    <td colspan="1">#Create a network security group</td>   
   </tr>
   <tr>
     <td>$nsg = New-AzNetworkSecurityGroup -ResourceGroupName $resourceGroup -Location $location `</td>
     <td>-Name "VM-PS01-NSG" -SecurityRules $nsgRuleRDP</td> 
   </tr>
-     <th colspan="1">#Get the subnet details for the specified virtual network + subnet combination.</th>   
+     <td colspan="1">#Get the subnet details for the specified virtual network + subnet combination.</td>   
   </tr>
   <tr>
     <td>$azureVnetSubnet = (Get-AzVirtualNetwork -Name $vnet -ResourceGroupName $resourceGroup).Subnets | Where-Object {$_.Name -eq $subnet}</td> 
   </tr> 
-       <th colspan="1">#Create a virtual network card and associate with public IP address and NSG</th>   
+       <td colspan="1">#Create a virtual network card and associate with public IP address and NSG</td>   
   </tr>
   <tr>
     <td>$nic = New-AzNetworkInterface -Name "VMPS01Nic" -ResourceGroupName $resourceGroup -Location $location `</td> 
     <td>-SubnetId $azureVnetSubnet.Id -PublicIpAddressId $pip.Id -NetworkSecurityGroupId $nsg.Id</td>
   </tr>
-       <th colspan="1">#Create a virtual machine configuration</th>   
+       <td colspan="1">#Create a virtual machine configuration</td>   
   </tr>
   <tr>
     <td>$vmConfig = New-AzVMConfig -VMName $vmName -VMSize Standard_B2S | `</td> 
@@ -122,7 +121,7 @@ Digite os comandos descritos abaixo:
     <td>Add-AzVMNetworkInterface -Id $nic.Id</td>
   </tr>
   <tr>
-        <th colspan="1">#Create a virtual machine</th>   
+        <td colspan="1">#Create a virtual machine</td>   
   </tr>
   <tr>
     <td>New-AzVM -ResourceGroupName $resourceGroup -Location $location -VM $vmConfig</td> 
