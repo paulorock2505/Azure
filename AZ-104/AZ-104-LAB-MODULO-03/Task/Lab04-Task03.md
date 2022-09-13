@@ -33,7 +33,15 @@
   </tr>
  </table>
  
+ Acesse o portal e abra o cloudshell do azure: 
 
+![image](https://user-images.githubusercontent.com/107069287/189999697-281964fe-6273-48e8-bfc4-01788f8b7e88.png)
+
+Ao abrir o cloudshell, selecione a opção Bash, como na imagem abaixo: 
+
+![image](https://user-images.githubusercontent.com/107069287/189999828-6d74a9e4-665e-4a0d-8f80-39c6e554b347.png)
+
+Em seguida pode copiar os comandos abaixo por completo que o bash executará todos eles em seguida: 
  
 AdminPassword=ChangeYourAdminPassword1
 - az network public-ip create --resource-group "RG-LAB-04" --name "VMCLIIPPUB"
