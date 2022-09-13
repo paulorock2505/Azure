@@ -61,6 +61,8 @@ Acesse o cloudshell dentro do portal do Azure:
 Digite os comandos descritos abaixo: 
 - <i>OBS: Não precisa copiar os comentarios com #.</i>
 
+Monte o script abaixo: 
+
  <table border="1">    
   <tr>
     <td><b>#Variables for common values</b></td>   
