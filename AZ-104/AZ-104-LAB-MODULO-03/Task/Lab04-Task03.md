@@ -39,5 +39,5 @@ AdminPassword=ChangeYourAdminPassword1
 - az network public-ip create --resource-group "RG-LAB-04" --name "VMCLIIPPUB"
 - az network nsg create --resource-group "RG-LAB-04" --name "VM-CLI01-NSG"
 - az network nic create --resource-group "RG-LAB-04" --name "VMCLIS01Nic" --vnet-name "VNET-04" --subnet "SUB-LAN" --network-security-group "VM-CLI01-NSG" --public-ip-- address "VMCLIIPPUB"
-- az vm create --resource-group "RG-LAB-04" --name "VM-CLI01" --location eastus2 --nics "VMCLIS01Nic" --image win2019datacenter --admin-username admin.raphael --admin-password $AdminPassword
+- az vm create --resource-group "RG-LAB-04" --name "VM-CLI01" --location eastus2 --nics "VMCLIS01Nic" --image win2019datacenter --admin-username admin.paulo --admin-password $AdminPassword
 - az vm open-port --port 3389 --resource-group "RG-LAB-04" --name "VM-CLI01"
