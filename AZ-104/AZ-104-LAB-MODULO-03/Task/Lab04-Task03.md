@@ -35,8 +35,9 @@
  
 
  
- #Criar Resource Group:
-- az group create --location eastus2 --name "RG-LAB-04" --tags "Modulo=MOD03"
-
-#Criar uma VNET e uma Subnet:
-- az network vnet create --name "VNET-04" --resource-group “RG-LAB-04” --address-prefix 10.4.0.0/16 --subnet-name "SUB-LAN" --subnet-prefix 10.4.0.0/24
+AdminPassword=ChangeYourAdminPassword1
+- az network public-ip create --resource-group "RG-LAB-04" --name "VMCLIIPPUB"
+- az network nsg create --resource-group "RG-LAB-04" --name "VM-CLI01-NSG"
+- az network nic create --resource-group "RG-LAB-04" --name "VMCLIS01Nic" --vnet-name "VNET-04" --subnet "SUB-LAN" --network-security-group "VM-CLI01-NSG" --public-ip-- address "VMCLIIPPUB"
+- az vm create --resource-group "RG-LAB-04" --name "VM-CLI01" --location eastus2 --nics "VMCLIS01Nic" --image win2019datacenter --admin-username admin.raphael --admin-password $AdminPassword
+- az vm open-port --port 3389 --resource-group "RG-LAB-04" --name "VM-CLI01"
