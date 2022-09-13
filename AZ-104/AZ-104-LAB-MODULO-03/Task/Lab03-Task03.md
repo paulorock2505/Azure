@@ -24,7 +24,7 @@ Agora que você explorou os recursos básicos de administração do Azure associ
 
  <table border="1">    
   <tr>
-    <th colspan="1">Virtual Machine</th> 
+    <th>Virtual Machine</th> 
 </table>
 
 <table border="1">    
@@ -64,14 +64,14 @@ Digite os comandos descritos abaixo:
  <table border="1">    
   <tr>
      <tr>
-    <th colspan="1">#Variables for common values</th>   
+    <th>#Variables for common values</th>   
   </tr>
   <tr>
-    <td>- $resourceGroup = "RG-LAB-03"</td>
-    <td>- $location = "eastus2"</td>
-    <td>- $vmName = "VM-PS01"</td>
-    <td>- $vnet = "VNET-03"</td>
-    <td>- $subnet = "SUB-LAN"</td>
+    <th>- $resourceGroup = "RG-LAB-03"</th>
+    <th>- $location = "eastus2"</th>
+    <th>- $vmName = "VM-PS01"</th>
+    <th>- $vnet = "VNET-03"</th>
+    <th>- $subnet = "SUB-LAN"</th>
   </tr>
  <tr>
      <tr>
