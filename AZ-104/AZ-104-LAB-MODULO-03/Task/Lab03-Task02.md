@@ -87,26 +87,7 @@ Agora que você explorou os recursos básicos de administração do Azure associ
     <td>10.3.0.0/24</td>
   </tr>
  </table>
-
-
-- 
-
-
-- 
-  
-  
-  
-  
-
-
-- 
-  
-  
-  
-  
-
-- 
-
+ 
  <table border="1">    
   <tr>
     <td><b>Criar Resource Group:</b></td>   
