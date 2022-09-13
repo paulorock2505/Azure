@@ -59,7 +59,7 @@ Acesse o cloudshell dentro do portal do Azure:
 ![image](https://user-images.githubusercontent.com/107069287/189973247-346f8e09-b89b-4f15-86b8-b672029d6055.png)
 
 Digite os comandos descritos abaixo: 
-<i>OBS: Não precisa copiar os comentarios com #</i>
+- <i>OBS: Não precisa copiar os comentarios com #</i>
 
 #Variables for common values
 - $resourceGroup = "RG-LAB-03"
