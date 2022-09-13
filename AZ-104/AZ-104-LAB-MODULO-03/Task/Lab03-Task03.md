@@ -53,7 +53,13 @@ Agora que você explorou os recursos básicos de administração do Azure associ
   </tr>
  </table>
  
+Acesse o cloudshell dentro do portal do Azure: 
 
+![image](https://user-images.githubusercontent.com/107069287/189972215-0bb5c950-5339-4c42-b390-a3ba95d60db4.png)
+![image](https://user-images.githubusercontent.com/107069287/189973247-346f8e09-b89b-4f15-86b8-b672029d6055.png)
+
+Digite os comandos descritos abaixo: 
+<i>OBS: Não precisa copiar os comentarios com #</i>
 
 #Variables for common values
 - $resourceGroup = "RG-LAB-03"
