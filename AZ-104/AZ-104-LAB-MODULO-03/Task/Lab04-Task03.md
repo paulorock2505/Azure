@@ -33,11 +33,7 @@
   </tr>
  </table>
  
-  <table border="1">    
-  <tr>
-    <th>VNET</th>
-  </tr>
-</table>
+
  
  #Criar Resource Group:
 - az group create --location eastus2 --name "RG-LAB-04" --tags "Modulo=MOD03"
