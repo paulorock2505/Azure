@@ -103,3 +103,6 @@ Adicionar uma Subnet
   -Name "SUB-LAN" `
   -AddressPrefix 10.3.0.0/24 `
   -VirtualNetwork $virtualNetwork
+  
+Setar a Subsnet criada na VNET existente
+- $virtualNetwork | Set-AzVirtualNetwork
