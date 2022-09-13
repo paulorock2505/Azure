@@ -5,9 +5,11 @@
 Faça o Download do Azure CLI através do link abaixo: 
 
 #Donwload Azure CLI para Windows:
-https://docs.microsoft.com/pt-br/cli/azure/install-azure-cli-windows?view=azure-cli-latest&tabs=azure-cli
+
+- https://docs.microsoft.com/pt-br/cli/azure/install-azure-cli-windows?view=azure-cli-latest&tabs=azure-cli
 
 Depois acesse sua subcrição com o comando abaixo: 
 
 #Acessar sua subscrição do Azure:
-az login
+
+- az login
