@@ -88,21 +88,64 @@ Agora que você explorou os recursos básicos de administração do Azure associ
   </tr>
  </table>
 
-Criar Resource Group:
-- New-AzResourceGroup -Name "RG-LAB-03" -Location "eastus2" -Tag @{Modulo="MOD03"}
 
-Criar uma VNET:
-- $virtualNetwork = New-AzVirtualNetwork `
-  -ResourceGroupName "RG-LAB-03" `
-  -Location "eastus2" `
-  -Name "VNET-03" `
-  -AddressPrefix 10.3.0.0/16
+- 
 
-Adicionar uma Subnet
-- $subnetConfig = Add-AzVirtualNetworkSubnetConfig `
-  -Name "SUB-LAN" `
-  -AddressPrefix 10.3.0.0/24 `
-  -VirtualNetwork $virtualNetwork
+
+- 
   
-Setar a Subsnet criada na VNET existente
-- $virtualNetwork | Set-AzVirtualNetwork
+  
+  
+  
+
+
+- 
+  
+  
+  
+  
+
+- 
+
+ <table border="1">    
+  <tr>
+    <td><b>Criar Resource Group:</b></td>   
+  </tr>
+  <tr>
+    <td><i>New-AzResourceGroup -Name "RG-LAB-03" -Location "eastus2" -Tag @{Modulo="MOD03"}</i></td>
+  </tr>
+ 
+     <tr>
+       <td colspan="1"><b>Criar uma VNET:</b></td>   
+  </tr>
+  <tr>
+    <td><i>$virtualNetwork = New-AzVirtualNetwork `<i></td>
+  </tr>
+   <tr>
+    <td><i>-ResourceGroupName "RG-LAB-03" `<i></td>
+  </tr>
+  <tr>
+    <td><i>-Location "eastus2" `<i></td>
+  </tr>
+  <tr>
+    <td><i>-Name "VNET-03" `<i></td>
+  </tr>
+  <tr>
+    <td><i>-AddressPrefix 10.3.0.0/16<i></td>
+  </tr>
+<tr>
+  <td colspan="1"><b>Adicionar uma Subnet</b></td>   
+  </tr>
+  <tr>
+    <td><i>-AddressPrefix 10.3.0.0/24 `</i></td>
+  </tr>
+  <tr>
+    <td><i>-VirtualNetwork $virtualNetwork</i></td>
+  </tr>  
+<tr>
+  <td colspan="1"><b>Setar a Subsnet criada na VNET existente</b></td>   
+  </tr>
+  <tr>
+    <td><i>$virtualNetwork | Set-AzVirtualNetwork</i></td>
+  </tr>
+</table>
