@@ -35,25 +35,26 @@ Agora que você explorou os recursos básicos de administração do Azure associ
 - Baixar o PowerShell v7.0.3: <b>https://github.com/PowerShell/PowerShell/releases/tag/v7.0.3</b>
 
 #Validar versão do Powershell:
-$PSVersionTable.PSVersion
+
+- $PSVersionTable.PSVersion
 
 #Atualizar versão Powershell 7.0.3:
-https://github.com/PowerShell/PowerShell/releases/tag/v7.0.3
+- https://github.com/PowerShell/PowerShell/releases/tag/v7.0.3
 
 Validar versão Net Framework (Validar chave Version)REGEDIT:
-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full
+- HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full
 
 #Instalar o módulo de PowerShell:
-Install-Module -Name Az -AllowClobber
+- Install-Module -Name Az -AllowClobber
 
 #Acessar sua subscrição do Azure:
-Connect-AzAccount
+- Connect-AzAccount
 
 #Atualizar seu módulo de PowerShell:
-Update-Module -Name Az
+- Update-Module -Name Az
 
 #Importar Módulo Azure
-Import-Module Az
+- Import-Module Az
 
 
 
