@@ -19,3 +19,20 @@ Agora que você explorou os recursos básicos de administração do Azure associ
     <td>Iniciar uma sessão do PowerShell no Cloud Shell do Azure e criar uma VM.</td>
   </tr>
  </table>
+ 
+ <h3>Task 1:	Instalar Azure PowerShell localmente e conectar na sua subscrição do Azure</h3>
+
+<table border="1">    
+  <tr>
+    <th colspan="1">PowerShell</th> 
+</table>
+
+- O Azure PowerShell funciona com o <i>PowerShell 6.2.4 e posterior em todas as plataformas.</i> 
+- Ele também é compatível com o <i>PowerShell 5.1 no Windows.</i> 
+- O Azure PowerShell não tem requisitos adicionais quando executado no <i>PowerShell 6.2.4 e posterior.</i>
+- Para verificar sua versão de PowerShell utilize o seguinte comando: <i>$PSVersionTable.Version.</i>
+- Instale o <i>.NET Framework 4.7.2 ou posterior.</i>
+- Baixar o PowerShell v7.0.3: <i>https://github.com/PowerShell/PowerShell/releases/tag/v7.0.3</i>
+
+
+ 
