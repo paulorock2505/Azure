@@ -27,7 +27,7 @@ Agora que você explorou os recursos básicos de administração do Azure associ
     <th colspan="1">PowerShell</th> 
 </table>
 
-- O Azure PowerShell funciona com o <b>PowerShell 6.2.4 e posterior em todas as plataformas.</b> 
+- O Azure PowerShell funciona com o <b color:#f0e68c>PowerShell 6.2.4 e posterior em todas as plataformas.</b> 
 - Ele também é compatível com o <b>PowerShell 5.1 no Windows.</b> 
 - O Azure PowerShell não tem requisitos adicionais quando executado no <b>PowerShell 6.2.4 e posterior.</b>
 - Para verificar sua versão de PowerShell utilize o seguinte comando: <b>$PSVersionTable.Version.</b>
