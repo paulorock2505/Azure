@@ -61,7 +61,7 @@ Acesse o cloudshell dentro do portal do Azure:
 Digite os comandos descritos abaixo: 
 - <i>OBS: Não precisa copiar os comentarios com #.</i>
 
-Monte o script abaixo: 
+Monte o script abaixo e salve o arquivo como .ps1: 
 
  <table border="1">    
   <tr>
