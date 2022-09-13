@@ -35,4 +35,6 @@ Agora que você explorou os recursos básicos de administração do Azure associ
 - Baixar o PowerShell v7.0.3: <b>https://github.com/PowerShell/PowerShell/releases/tag/v7.0.3</b>
 
 
+
+
  
