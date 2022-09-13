@@ -58,7 +58,7 @@ Acesse o cloudshell dentro do portal do Azure:
 ![image](https://user-images.githubusercontent.com/107069287/189972215-0bb5c950-5339-4c42-b390-a3ba95d60db4.png)
 ![image](https://user-images.githubusercontent.com/107069287/189973247-346f8e09-b89b-4f15-86b8-b672029d6055.png)
 
-Digite os comandos descritos abaixo: 
+Digite os comandos descritos abaixo ou faça o upload do arquivo e utilize .\ para executar o script: 
 - <i>OBS: Não precisa copiar os comentarios com #.</i>
 
 Monte o script abaixo e salve o arquivo como .ps1: 
