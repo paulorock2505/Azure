@@ -82,3 +82,28 @@
   </tr>
  </table> 
 
+Abra o portal do Azure e no campo de pesquisa busque por Resource Group: 
+
+![image](https://user-images.githubusercontent.com/107069287/190425063-189df598-896c-492b-8a13-f7f7dcfa1534.png)
+
+Clique em + Create: 
+
+![image](https://user-images.githubusercontent.com/107069287/190425174-b6544753-1998-4693-851b-8f124d53d162.png)
+
+Em Resource Group, vamos criar o recurso de acordo com a tabela acima: 
+
+![image](https://user-images.githubusercontent.com/107069287/190425535-33ca6276-c852-41fc-b33a-57dfedd51e6e.png)
+
+Clique em Next. 
+
+Vamos criar uma TAG mantendo o padrão utilizado anteriormente, utilize as TAGs conforme a imagem abaixo: 
+
+![image](https://user-images.githubusercontent.com/107069287/190426041-a327f853-3833-4715-ada6-fa968fc54829.png)
+
+Clique em Review + Create e em seguida Create para criar o grupo de recursos. 
+
+
+
+
+
+
