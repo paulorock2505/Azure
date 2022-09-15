@@ -78,7 +78,7 @@
   </tr>
   <tr>
     <td>Address</td>
-    <td>10.40.0.0/24</td>
+    <td>10.40.1.0/24</td>
   </tr>
  </table> 
 
@@ -142,13 +142,32 @@ Em seguida clique Add.
 
 Clique em Next. 
 
+Em Security vamos manter todas as opções desabilitadas e clicarmos em Next novamente: 
 
+![image](https://user-images.githubusercontent.com/107069287/190432618-af35474c-b025-4a5f-aeb5-9914580de558.png)
 
+Em Tags, vamos adicionar a TAG utilizada anteriormente: 
 
+![image](https://user-images.githubusercontent.com/107069287/190432773-f0980e36-1ee8-49f5-9d4d-bd8ae6bf80e9.png)
 
+Em seguida clique em Review + Create e na sequência Create. 
 
+Clique em Go to resource: 
 
+![image](https://user-images.githubusercontent.com/107069287/190433125-758990b5-6f64-4086-bd94-e1f41e081b6f.png)
 
+Para criarmos a segunda subnet, iremos ao campo settings e em seguida clicaremos em subnet: 
 
+![image](https://user-images.githubusercontent.com/107069287/190433369-8337d425-cd02-4221-a486-38fd213651d4.png)
 
+Note que já temos a nossa primeira subnet configurada, agora criaremos a segunda clicando em + Subnet:
 
+![image](https://user-images.githubusercontent.com/107069287/190433524-4df5984b-8c78-4db9-b56f-7f90b891fc75.png)
+
+Preencha os campos conforme definimos na tabela acima novamente: 
+
+![image](https://user-images.githubusercontent.com/107069287/190434808-e5112889-a796-44e1-87d3-1d783f4874ec.png)
+
+Clique em Save. 
+
+Note que as duas subnet foram criadas seguindo as denicões acima. 
