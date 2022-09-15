@@ -38,3 +38,7 @@ Você planeja criar uma rede virtual no Azure que Hospedará algumas máquinas v
   </tr>
 </table>
 
+Diagrama da arquitetura: 
+
+![image](https://user-images.githubusercontent.com/107069287/190416895-6639fe0c-e751-411d-af19-b9265c386a32.png)
+
