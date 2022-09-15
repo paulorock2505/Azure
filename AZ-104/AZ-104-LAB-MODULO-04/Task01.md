@@ -138,7 +138,7 @@ Vamos definir os valores que definimos na tabela acima:
 
 Em seguida clique Add. 
 
-<i>OBS: Poderíamos criar a segunda subnet já nesta fazse, mas para fins didáticos irei criar já dentro da VNET para desenvolvermos um outro método de criação.</i>
+<i>OBS: Poderíamos criar a segunda subnet já nesta fase, mas para fins didáticos irei criar já dentro da VNET para desenvolvermos um outro método de criação.</i>
 
 Clique em Next. 
 
