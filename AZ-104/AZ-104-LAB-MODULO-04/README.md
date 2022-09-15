@@ -37,3 +37,4 @@ Você planeja criar uma rede virtual no Azure que Hospedará algumas máquinas v
     <td>Configurar o DNS do Azure para resolução de nomes externos</td>
   </tr>
 </table>
+
