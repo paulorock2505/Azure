@@ -102,6 +102,51 @@ Vamos criar uma TAG mantendo o padrão utilizado anteriormente, utilize as TAGs 
 
 Clique em Review + Create e em seguida Create para criar o grupo de recursos. 
 
+Em seguida clique em Go to Resource Group: 
+
+![image](https://user-images.githubusercontent.com/107069287/190426578-bd43bb00-590f-4101-9350-579170e2f894.png)
+
+Em Overview, clique em + Create: 
+
+![image](https://user-images.githubusercontent.com/107069287/190427508-123c8611-a30f-4434-af4e-0fd0939506d5.png)
+
+No Marketplace, no campo de pesquisa procure por Virtual Network:
+
+![image](https://user-images.githubusercontent.com/107069287/190427692-8ceb94e3-aad5-4206-8e3c-9734022b09ad.png)
+
+Clique em Create e em seguida Virtual Network:
+
+![image](https://user-images.githubusercontent.com/107069287/190427847-5f1b9e4f-6b7d-4668-8f82-9e2b4cf73dc8.png)
+
+Na sessão Basics, defina o Resource Groups que acabamos de criar e preencha os campos conforme definimos na tabela acima: 
+
+![image](https://user-images.githubusercontent.com/107069287/190429678-f1ba3a53-bff4-44d5-a745-e1dba87ee10e.png)
+
+Clique em Next. 
+
+Em IPv4 Address Space vamos alterar para o padrão que definimos acima: 
+
+![image](https://user-images.githubusercontent.com/107069287/190430105-7949859e-9781-4b9f-9f35-adb0afd0c795.png)
+
+Clique em + Add subnet para adicionarmos uma subnet: 
+
+![image](https://user-images.githubusercontent.com/107069287/190430751-a869c5e8-91ef-46b1-9b56-4fa044fcc20b.png)
+
+Vamos definir os valores que definimos na tabela acima: 
+
+![image](https://user-images.githubusercontent.com/107069287/190431036-a70e5687-a332-409f-afb7-ebdc4c368c53.png)
+
+Em seguida clique Add. 
+
+<i>OBS: Poderíamos criar a segunda subnet já nesta fazse, mas para fins didáticos irei criar já dentro da VNET para desenvolvermos um outro método de criação.</i>
+
+Clique em Next. 
+
+
+
+
+
+
 
 
 
