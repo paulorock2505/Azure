@@ -65,11 +65,36 @@
  </table>
  
  <i>OBS: Recursos necessários para a execução deste laboratório: </i></br>
- [Executa-PWShell-com-JSON.zip](https://github.com/paulorock2505/Microsoft-Azure-Jobs/files/9586359/Executa-PWShell-com-JSON.zip)
+ [Executa-PWShell-com-JSON.zip](https://github.com/paulorock2505/Microsoft-Azure-Jobs/files/9586497/Executa-PWShell-com-JSON.zip)
+
  
  No campo superior clique em CloudShell: 
 
 ![image](https://user-images.githubusercontent.com/107069287/190706658-d628aa72-6108-4b54-9e4b-9c0b96ef1c63.png)
+
+No CloudShell, utilize a opção PowerShell: 
+
+![image](https://user-images.githubusercontent.com/107069287/190706886-375b4d71-0055-4fc2-bf3d-261b7fc90ccc.png)
+
+Descompacte o arquivo que está no descritivo em sua máquina e carregue atravé da opção abaixo: 
+
+![image](https://user-images.githubusercontent.com/107069287/190708962-88139799-6eb0-48ef-a294-8df950b4c52c.png)
+
+Carregue o arquivo az104-04-vms-template e o az104-04-vms-parameters todos os dois com extensão .json: 
+
+![image](https://user-images.githubusercontent.com/107069287/190709198-b5b94479-a1e2-4d8a-8c06-6c4eecd368c7.png)
+
+Depois de carregado, no CloudShell, execute o comando abaixo: 
+<i>OBS: Caso queira, basta copiar o comando do bloco de notas e executar direto no PowerShell</i>
+
+![image](https://user-images.githubusercontent.com/107069287/190707903-989bcc58-9d2e-4c44-993f-e8ccdc1d51a1.png)
+
+
+
+
+
+
+
 
 
 
