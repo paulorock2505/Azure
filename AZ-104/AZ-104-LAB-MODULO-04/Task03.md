@@ -100,6 +100,11 @@ Após a conclusão o resultado será esse abaixo:
 ![image](https://user-images.githubusercontent.com/107069287/190710129-e2948946-ef66-46a9-9b10-9d46ea731c1e.png)
 
 
+Caso queira, você pode ir até o campo virtual machines e validar a criação das duas máquinas virtuais que precisamos: 
+
+O resultado esperado é esse abaixo: 
+
+![image](https://user-images.githubusercontent.com/107069287/190710490-a2967754-9b25-40b9-b906-d3d7c0a7ff4c.png)
 
 
 
