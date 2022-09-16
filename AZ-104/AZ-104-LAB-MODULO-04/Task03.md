@@ -66,6 +66,13 @@
  
  <i>OBS: Recursos necessários para a execução deste laboratório: </i></br>
  [Executa-PWShell-com-JSON.zip](https://github.com/paulorock2505/Microsoft-Azure-Jobs/files/9586359/Executa-PWShell-com-JSON.zip)
+ 
+ No campo superior clique em CloudShell: 
+
+![image](https://user-images.githubusercontent.com/107069287/190706658-d628aa72-6108-4b54-9e4b-9c0b96ef1c63.png)
+
+
+
 
 
  
