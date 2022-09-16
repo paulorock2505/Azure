@@ -89,7 +89,11 @@ Depois de carregado, no CloudShell, execute o comando abaixo: <br>
 
 ![image](https://user-images.githubusercontent.com/107069287/190707903-989bcc58-9d2e-4c44-993f-e8ccdc1d51a1.png)
 
+Processo durante a execução do comando: 
 
+![image](https://user-images.githubusercontent.com/107069287/190709680-867366cb-7577-468a-beca-3a88a5730f30.png)
+
+Aguarde até a conclusão desta etapa. 
 
 
 
