@@ -64,7 +64,8 @@
   </tr>
  </table>
  
- <p><i>OBS: Recursos necessários para a execução deste laboratório: </i></p>
- [Executa-PWShell-com-JSON.zip](https://github.com/paulorock2505/Microsoft-Azure-Jobs/files/9586344/Executa-PWShell-com-JSON.zip)
+ <i>OBS: Recursos necessários para a execução deste laboratório: </i></br>
+ [Executa-PWShell-com-JSON.zip](https://github.com/paulorock2505/Microsoft-Azure-Jobs/files/9586359/Executa-PWShell-com-JSON.zip)
+
 
  
