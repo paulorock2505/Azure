@@ -84,7 +84,7 @@ Carregue o arquivo az104-04-vms-template e o az104-04-vms-parameters todos os do
 
 ![image](https://user-images.githubusercontent.com/107069287/190709198-b5b94479-a1e2-4d8a-8c06-6c4eecd368c7.png)
 
-Depois de carregado, no CloudShell, execute o comando abaixo: 
+Depois de carregado, no CloudShell, execute o comando abaixo: <br>
 <i>OBS: Caso queira, basta copiar o comando do bloco de notas e executar direto no PowerShell</i>
 
 ![image](https://user-images.githubusercontent.com/107069287/190707903-989bcc58-9d2e-4c44-993f-e8ccdc1d51a1.png)
