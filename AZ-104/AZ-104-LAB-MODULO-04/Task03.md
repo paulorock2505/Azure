@@ -64,4 +64,8 @@
   </tr>
  </table>
  
+ Recursos necessários para a execução deste laboratório: 
+ 
+ [Executa-PWShell-com-JSON.zip](https://github.com/paulorock2505/Microsoft-Azure-Jobs/files/9586344/Executa-PWShell-com-JSON.zip)
+
  
