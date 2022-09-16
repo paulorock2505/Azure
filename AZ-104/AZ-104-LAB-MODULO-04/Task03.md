@@ -106,6 +106,11 @@ O resultado esperado é esse abaixo:
 
 ![image](https://user-images.githubusercontent.com/107069287/190710490-a2967754-9b25-40b9-b906-d3d7c0a7ff4c.png)
 
+Em Resource Groups, o resultado esperado é esse abaixo: 
+
+![image](https://user-images.githubusercontent.com/107069287/190710724-059896bb-fb20-404a-888d-fb0d1c1291aa.png)
+
+Feito essa etapa, as tarefas foram executadas com sucesso. 
 
 
 
