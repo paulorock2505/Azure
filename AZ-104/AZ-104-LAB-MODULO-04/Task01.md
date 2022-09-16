@@ -170,4 +170,4 @@ Preencha os campos conforme definimos na tabela acima novamente:
 
 Clique em Save. 
 
-Note que as duas subnet foram criadas seguindo as denicões acima. 
+Note que as duas subnet foram criadas seguindo as definições acima. 
