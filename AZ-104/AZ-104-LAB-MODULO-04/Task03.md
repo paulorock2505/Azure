@@ -95,6 +95,9 @@ Processo durante a execução do comando:
 
 Aguarde até a conclusão desta etapa. 
 
+Após a conclusão o resultado será esse abaixo: 
+
+![image](https://user-images.githubusercontent.com/107069287/190710129-e2948946-ef66-46a9-9b10-9d46ea731c1e.png)
 
 
 
