@@ -6,6 +6,10 @@
 
 Você planeja criar uma rede virtual no Azure que Hospedará algumas máquinas virtuais do Azure. Você os implantará em diferentes sub-redes da rede virtual. Você também deseja garantir que seus endereços IP públicos e privados não sejam alterados ao longo do tempo. Para cumprir os requisitos de segurança da ALPA, você precisa proteger pontos de extremidade públicos das máquinas virtuais do Azure acessíveis pela Internet. Por fim, você precisa implementar a resolução de nomes DNS para máquinas virtuais do Azure na rede virtual e na Internet. 
 
+***Informação Importante:***
+
+*Para este laboratório utilize um domínio que não esteja registrado. Busque o domínio no link informado na Task 5.*
+
 <h3>Objetivos:</h3>  
 
 <table border="1">    
