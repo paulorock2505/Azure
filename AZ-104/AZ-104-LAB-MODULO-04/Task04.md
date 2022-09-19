@@ -165,6 +165,10 @@ Em seguida clique em Add.
 OBS: Sempre altere a prioridade da regra para um valor que deixe margem para adicionar outras regras no futuro. Note que os valores começam em 100, busque sempre valores com espaço para criar ouras regras no futuro. Ex: 500. 
 ``` 
 
+Teste o acesso RDP das máquinas utilizando o IP público de cada uma. 
 
+*Nota: O usuário e senha para este laboratório das máquinas estão no arquivo parameters, deixo essa etapa como desafio para acostumarmos com a interpretação do arquivo .json* 
+
+Feito essas etapas concluímos a atividade deste laboratório. 
 
 
