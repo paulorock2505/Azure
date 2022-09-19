@@ -78,3 +78,8 @@ Neste caso iremos configurar conforme as definições descritas em nossa tabela:
 
 Clique em Ok e na sequência clique em Save. 
 
+Na sequência iremos repetir o processo para a próxima máquina. 
+
+
+
+
