@@ -161,9 +161,9 @@ Vamos criar a regra de liberação de acesso a porta 3389 conforme a imagem abai
 
 Em seguida clique em Add. 
 
-```
+``
 OBS: Sempre altere a prioridade da regra para um valor que deixe margem para adicionar outras regras no futuro. Note que os valores começam em 100, busque sempre valores com espaço para criar ouras regras no futuro. Ex: 500. 
-``` 
+``
 
 Teste o acesso RDP das máquinas utilizando o IP público de cada uma. 
 
