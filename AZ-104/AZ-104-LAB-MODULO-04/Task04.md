@@ -122,6 +122,49 @@ Em Overview, note que a máquina já está associada a um IP Público:
 
 ![image](https://user-images.githubusercontent.com/107069287/191090284-d6cd31bb-8895-4a4d-8e49-9ce8cbd2d64b.png)
 
+```
+Nota: Caso queira de maneira optativa tente fazer os acessos as duas máquinas por conexão RDP. Note que os acessos não estão liberados. Isso está ocorrendo pois não atribuímos nenhuma regra de acesso ao NSG.
+```
+
+Nesta etapa iremos criar uma regra para o NSG. 
+
+Volte para a home do Azure e no campo de pesquisa digite Resource Group: 
+
+![image](https://user-images.githubusercontent.com/107069287/191093707-1e0fc00d-4c1a-4e0f-936e-a15a7c033871.png)
+
+Clique novamente em RG-MOD04:
+
+![image](https://user-images.githubusercontent.com/107069287/191093863-a34963b6-940a-4e35-a9d3-3158f4745b82.png)
+
+Em Overview, vamos clicar na NSG que criamos: 
+
+![image](https://user-images.githubusercontent.com/107069287/191094030-f7b3804d-7589-474c-b3ab-0b6dac0ecc75.png)
+
+Associe as subnets que criamos, clique em subnet e depois associate: 
+
+![image](https://user-images.githubusercontent.com/107069287/191094944-600b87b3-f8ec-42db-a327-4d481478f0e0.png)
+
+Associe as duas subnets que criamos a essa NSG. 
+
+Em seguida, clique em inbound security rules no campo Settings: 
+
+![image](https://user-images.githubusercontent.com/107069287/191094199-66f17c07-b33f-427a-804a-04d45fa39053.png)
+
+Em seguida clique em + Add: 
+
+![image](https://user-images.githubusercontent.com/107069287/191094314-eaaf01f8-3987-4c3f-bed6-ac32f5ed1df4.png)
+
+Vamos criar a regra de liberação de acesso a porta 3389 conforme a imagem abaixo: <br>
+*note que iremos restringir o acesso apenas para os ips das máquinas*
+
+![image](https://user-images.githubusercontent.com/107069287/191096421-f576c608-5e7b-42e2-b38d-c899e41623f8.png)
+
+Em seguida clique em Add. 
+
+```
+OBS: Sempre altere a prioridade da regra para um valor que deixe margem para adicionar outras regras no futuro. Note que os valores começam em 100, busque sempre valores com espaço para criar ouras regras no futuro. Ex: 500. 
+``` 
+
 
 
 
