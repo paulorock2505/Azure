@@ -42,3 +42,7 @@
   </table>
 
 
+No portal do Azure, no campo de pesquisa, busque por resource groups: 
+
+![image](https://user-images.githubusercontent.com/107069287/191070172-8d0c3dda-b833-4aac-bc15-227251ee7117.png)
+
