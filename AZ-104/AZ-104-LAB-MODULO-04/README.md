@@ -8,7 +8,9 @@ Você planeja criar uma rede virtual no Azure que Hospedará algumas máquinas v
 
 ***Informação Importante:***
 
-*Para este laboratório utilize um domínio que não esteja registrado. Busque o domínio no link informado na Task 5.*
+*Para este laboratório utilize um domínio que não esteja registrado. Busque o domínio no link informado:* 
+
+**Validar o domínio: https://www.godaddy.com/domains/domain-name-search**
 
 <h3>Objetivos:</h3>  
 
