@@ -25,5 +25,5 @@
 
 <h2>Diagrama da arquitetura:</h2> <br>
 
-***RG-ALPA:*** 
+***RG-ALPA:*** <br>
 ![image](https://user-images.githubusercontent.com/107069287/191503172-b4f9ac7c-4fef-4e1d-8ea9-b1a749a11f1f.png)
