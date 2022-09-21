@@ -103,3 +103,64 @@ Em TAGs, adicione as mesmas TAGs que usamos no grupo de recursos:
 
 Em seguida clique em Review + Create e em seguida clique em Create. 
 
+Ao finalizar a criação da VNET, acesse a home do portal e no campo de pesquisa digite Virtual Network para criarmos a nossa segunda VNET: 
+
+![image](https://user-images.githubusercontent.com/107069287/191514882-14160b37-19e5-4d7e-b9ee-ff41e02f8299.png)
+
+Clique em + Create: 
+
+![image](https://user-images.githubusercontent.com/107069287/191515063-254715d0-fccf-4f33-906c-479b971e4f9f.png)
+
+Criaremos a nossa segunda VNET que estará localizada na região da europa: 
+
+![image](https://user-images.githubusercontent.com/107069287/191515523-5c587692-34b0-40bc-baeb-52d90148d8d6.png)
+
+Clique em Next. 
+
+Em Security não alteraremos nada: 
+
+![image](https://user-images.githubusercontent.com/107069287/191515992-0bdc2965-c6a6-4b54-b972-4ee884344da8.png)
+
+Clique em Add. 
+
+Novamente clique em + Add a Subnet: 
+
+![image](https://user-images.githubusercontent.com/107069287/191517900-afe1bebe-edd0-4bb8-ab24-db9139ebf10e.png)
+
+
+
+Clique em Next. 
+
+Em IP Address clique em ... em seguida Delete Address Space:
+
+![image](https://user-images.githubusercontent.com/107069287/191517129-992180a2-6db8-4bb8-87c4-83e0f4e00ec8.png)
+
+Clique em Add an IP Address space: 
+
+![image](https://user-images.githubusercontent.com/107069287/191517372-2954bef4-dc13-4ec3-9d15-b063b4f8df2d.png)
+
+Configure o IP novamente conforme o nosso escopo: 
+
+![image](https://user-images.githubusercontent.com/107069287/191517693-22b1164f-1d7c-4295-8d2f-bbebb591046a.png)
+
+Após essa etapa, vamos add nossa Subnet, clique em + Add a subnet: 
+
+![image](https://user-images.githubusercontent.com/107069287/191521518-79d98fa4-a0e0-4e08-aceb-f7e2e9edf4ff.png)
+
+Em seguida configure conforme o escopo do Laboratório: 
+
+![image](https://user-images.githubusercontent.com/107069287/191522001-c7e41919-1892-4883-affd-6a731e7eda1a.png)
+
+Clique em Add. 
+
+Em seguida clique em Next. 
+
+Preencha as TAGs para mantermos o hábito de utilizarmos: 
+
+![image](https://user-images.githubusercontent.com/107069287/191522984-3c8c838c-3f3f-4869-80fe-20b39fb20f9b.png)
+
+Em seguida clique em Review + Create e em seguida Create. 
+
+
+
+
