@@ -25,7 +25,7 @@ Na aba TAGs para mantermos o hábito, iremos criar a TAG referenciando o nosso l
 
 Clique em Review + Create e em seguida create para criarmos o nosso Recurso. 
 
-Na seuqência iremos criar as nossas Virtual Networks. 
+Na sequência iremos criar as nossas Virtual Networks. 
 
 Acesse o recurso que acabamos de criar: 
 
