@@ -155,3 +155,4 @@ Em seguida digite sua senha e se conecte a VM Linux.
 
 Feito os testes acima, o pering está estabelecido entre as rede, validado e funcionando conforme a atividade. 
 
+*OBS: Lembre de dar um stop nas máquinas caso não faça os demais laboratórios na sequência.*
