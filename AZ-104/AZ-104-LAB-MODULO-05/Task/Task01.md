@@ -161,6 +161,82 @@ Preencha as TAGs para mantermos o hábito de utilizarmos:
 
 Em seguida clique em Review + Create e em seguida Create. 
 
+Volte para a home do portal e novamente vamos pesquisar por Virtual Network: 
+
+![image](https://user-images.githubusercontent.com/107069287/191526213-d1b4c56b-cfd1-446c-91eb-cc81acf9957d.png)
+
+Nessa etapa iremos criar a nossa terceira Virtual Network, clique em + Create: 
+
+![image](https://user-images.githubusercontent.com/107069287/191526479-9c4cae40-642c-4bf6-925c-800d6794c47a.png)
+
+Vamos configurar essa VNET, com os padrões apresentados abaixo: 
+
+![image](https://user-images.githubusercontent.com/107069287/191526826-53bd6171-80a0-4526-b3d7-8561ec9c2165.png)
+
+Em seguida clique em Next. 
+
+Em Security não faça nenhuma alteração: 
+
+![image](https://user-images.githubusercontent.com/107069287/191527460-71064e7f-c629-496a-bb5d-a6fbf2717eaa.png)
+
+Clique novamente em next. 
+
+Clique em ... e depois clique em Delete address space. 
+
+![image](https://user-images.githubusercontent.com/107069287/191527732-28f98737-85da-47aa-8358-ee9d4fc51678.png)
+
+Em seguida clique em Add an IP address space: 
+
+![image](https://user-images.githubusercontent.com/107069287/191527964-b2da9657-4f40-4fee-bc9c-0e8d9d7e97f3.png)
+
+Configure o pool de IP Address conforme o diagrama passado: 
+
+![image](https://user-images.githubusercontent.com/107069287/191528474-1e12caa4-5d33-484b-a226-81f1dfe14d3e.png)
+
+Em seguida clique em Add. 
+
+Na sequência vamos adicionar uma subnet, clique em + Add a Subnet:
+
+![image](https://user-images.githubusercontent.com/107069287/191528778-f4b49363-3356-46a2-9a45-dede04a6266d.png)
+
+Preencha os campos da subnet conforme nosso escopo: 
+
+![image](https://user-images.githubusercontent.com/107069287/191529126-0c25475f-7e13-4ffc-8e92-0fa78faf8139.png)
+
+Clique em Add. 
+
+Em seguida iremos criar a segunda subnet. Clique novamente em + Add a Subnet: 
+
+![image](https://user-images.githubusercontent.com/107069287/191530365-c2dc71c5-7bb3-41e3-a4a7-95950dd82cf1.png)
+
+Configure os campos novamente conforme o Diiagrama: 
+
+![image](https://user-images.githubusercontent.com/107069287/191530714-5e434d91-c68f-4ee1-9e28-9c5114cb1e61.png)
+
+Clique em Add. 
+
+E por fim iremos criar a terceira subnet. Clique novamente em + Add a Subnet: 
+
+![image](https://user-images.githubusercontent.com/107069287/191531072-37ef18f4-9ff5-45b5-afce-5f6b324e6fba.png)
+
+Configure os campos novamente conforme o Diiagrama: 
+
+![image](https://user-images.githubusercontent.com/107069287/191531363-ac7d667c-18d0-417f-aad8-ed6a5aee0d04.png)
+
+Clique em Add. 
+
+Em seguida clique em Next. 
+
+Em TAGs vamos manter os mesmos parametros configurados no tópico anterior: 
+
+![image](https://user-images.githubusercontent.com/107069287/191532021-994c4d4c-488a-452d-a966-87e8f5d8c9ef.png)
+
+Clique na sequência Review + Create e em seguida Create. 
+
+
+
+
+
 
 
 
