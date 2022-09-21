@@ -43,7 +43,7 @@ Em virtual Network clique em Create e em seguida Virtual Network:
 
 ![image](https://user-images.githubusercontent.com/107069287/191507379-78a9b537-c0bb-4241-a2b1-5668c12f0ade.png)
 
-Na sequência criaremos todas as nossas VNETs, respeitando o diagrama. 
+Na sequência criaremos todas as nossas VNETs, respeitando o diagrama. <br>
 *OBS: Para configurar as VNETs, utilizem como guia o diagrama que está no README deste módulo.*
 
 Neste momento iremos criar a primeira VNET, conforme a imagem abaixo: <br>
