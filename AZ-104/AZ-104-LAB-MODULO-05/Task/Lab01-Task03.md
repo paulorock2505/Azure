@@ -121,5 +121,37 @@ Clique em Review + Create e em seguida Create.
 
 Aguarde até o término do processo de criação da VM. 
 
+Ao término clique em go to Resource. 
 
+Em Overview, clique em Connect e em seguida RDP para fazermos o acesso remoto a máquina: 
+
+![image](https://user-images.githubusercontent.com/107069287/191591375-ab44e0ca-7b2e-4058-ba55-7fb2a73aec27.png)
+
+Em seguida clique em Download RDP File e faça o download do client RDP. 
+
+![image](https://user-images.githubusercontent.com/107069287/191591543-24b16d07-6918-4c4e-abe1-9e4463c46b38.png)
+
+Conecte a máquina: 
+
+![image](https://user-images.githubusercontent.com/107069287/191594187-582abe6f-0b7a-47e6-90cf-d58645cf1dba.png)
+
+![image](https://user-images.githubusercontent.com/107069287/191594298-a31fc51f-bac7-44ce-bec8-799256d30bd1.png)
+
+![image](https://user-images.githubusercontent.com/107069287/191594364-9ee5bc74-577e-4935-b43b-0661459722e9.png)
+
+![image](https://user-images.githubusercontent.com/107069287/191594553-f7515e41-8b13-41bf-82d0-ced49eb355de.png)
+
+Na sequência desabilite o firewall do Windows para realizarmos os seguintes testes: 
+- Ping para o ip da VM Linux que criamos; 
+- Acesso SSH através do PowerShell na Máquina Linux; 
+- Ping da VM Linux para a VM Windows; 
+
+Comando para ssh no power shell: 
+
+```
+ssh 'usuario'@ip_da_máquina 
+```
+Em seguida digite sua senha e se conecte a VM Linux. 
+
+Feito os testes acima, o pering está estabelecido entre as rede, validado e funcionando conforme a atividade. 
 
