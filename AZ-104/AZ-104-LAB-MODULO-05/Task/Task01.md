@@ -233,10 +233,26 @@ Em TAGs vamos manter os mesmos parametros configurados no tópico anterior:
 
 Clique na sequência Review + Create e em seguida Create. 
 
+Finalizamos nossa infraestrutura de Virtual Networks, por fim criaremos o Gateway de Subnet. Nesse caso iremos criar na VNET da Europa. No portal, clique no campo de pesquisa e digite novamente Virtual Network: 
 
+![image](https://user-images.githubusercontent.com/107069287/191533410-8fd2f2e3-5bab-497d-9e21-cb684cb4a4d1.png)
 
+Em seguida acessaremos a VNET-USA01 que acabamos de criar: 
 
+![image](https://user-images.githubusercontent.com/107069287/191534305-f52cea14-e6a3-4c75-8bc6-29907727e995.png)
 
+Na área Settings, clique em Subnets: 
 
+![image](https://user-images.githubusercontent.com/107069287/191534426-b84c2ee2-caf1-48cd-9e20-bedb237f0b2a.png)
 
+Em seguida clique em + Gateway de Subnet: 
 
+![image](https://user-images.githubusercontent.com/107069287/191535017-d76e6c4c-bfdb-4d68-b899-e5a61af740c9.png)
+
+Configure o pool de IPs conforme a imagem abaixo: 
+
+![image](https://user-images.githubusercontent.com/107069287/191535499-7636cc84-73ea-49b7-9ffa-c6c545073fca.png)
+
+Em seguida clique em Save. 
+
+Após essa etapa a tarefa foi concluída. 
