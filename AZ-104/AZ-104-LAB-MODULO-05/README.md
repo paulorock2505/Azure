@@ -19,7 +19,7 @@
   </tr>
   <tr>
     <td>Tarefa 3:</td>
-    <td>Realizar deploy de uma VM na VNET Esat US e Brazil South.</td>
+    <td>Realizar deploy de uma VM na VNET East US e Brazil South.</td>
   </tr>
 </table>
 
