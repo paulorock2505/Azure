@@ -29,7 +29,7 @@
 ![image](https://user-images.githubusercontent.com/107069287/191503172-b4f9ac7c-4fef-4e1d-8ea9-b1a749a11f1f.png)
 
 
- <h2>Lab 05b - Configuração de VPN</h2>
+<h2>Lab 05b - Configuração de VPN</h2>
   
 
 <h3>Objetivos:</h3>  
