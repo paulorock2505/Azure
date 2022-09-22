@@ -27,3 +27,5 @@ Para permitir que os usuarios da ALPA se autentiquem usando o Azure AD, você fo
     <td>Gerenciar usuários convidados do Azure AD.</td>
   </tr>
 </table>
+
+
