@@ -1,6 +1,6 @@
 # AZ-104-LAB-MOD-05
 
- <h2>Lab 05 - Configuração de VPN</h2> <br>
+ <h2>Lab 05b - Configuração de VPN</h2> <br>
 
  ***Tarefa 1:***  <br>
     *Deploy Virtual Network Gateway.*
