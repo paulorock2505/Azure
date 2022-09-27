@@ -151,6 +151,189 @@ Aguarda até a conclusão da instalação:
 
 ![image](https://user-images.githubusercontent.com/107069287/192380693-23a62be6-3bd2-4413-93df-cd93bdba9eb1.png)
 
+Após a instalação clique em close e volte para o server manager: 
+
+Clique nas notificações acima e em seguida clique em Open the Getting Started Wizard: 
+
+![image](https://user-images.githubusercontent.com/107069287/192381349-a89b1403-e318-466a-b25e-9799078c9f15.png)
+
+***OBS: Caso não abra a opção, faça os passos abaixo:***
+
+*Vá em Tools e em seguida clique Remote Access Management:*
+
+![image](https://user-images.githubusercontent.com/107069287/192382133-f03285b1-8c10-4199-9f42-afc11d779d60.png)
+
+*Clique em DirectAccess and VPN e em seguida Run the Getting Started Wizard:* 
+
+![image](https://user-images.githubusercontent.com/107069287/192382592-3940c068-6202-4ef2-bf93-94ec6b7af0fd.png)
+
+Clique em Deploy VPN only: 
+
+![image](https://user-images.githubusercontent.com/107069287/192382989-76814c5e-b2b2-4604-9a4a-26e1bf3e1251.png)
+
+Clique com o botão direito no nome do servidor e em seguida clique Configure an Enabled Routing and Remote Access: 
+
+![image](https://user-images.githubusercontent.com/107069287/192383336-751eda69-8292-4bb5-9c14-36cf9f9343cf.png)
+
+Na primeira tela do Wizard de instalação vamos clicar em Next: 
+
+![image](https://user-images.githubusercontent.com/107069287/192383605-37e23856-7368-485c-8470-2d429103934e.png)
+
+Marque a opção Secure connection between two private networks e em seguida clique em Next: 
+
+![image](https://user-images.githubusercontent.com/107069287/192384329-fdf2c635-0b71-41e2-9545-d14bcc97882f.png)
+
+Em Demmand Dial Up Connections, vamos marcar a opção yes e em seguida clicar em next: 
+
+![image](https://user-images.githubusercontent.com/107069287/192384619-c9ee52bf-1ea7-4b49-bf73-49d7e34a3528.png)
+
+Em IP Address Assigment, mantenha a opção automatico e em seguida clique em Next: 
+
+![image](https://user-images.githubusercontent.com/107069287/192385013-806fc63c-4675-48c3-a39c-f3e0ebe71023.png)
+
+Complete a instalação clicando em finish: 
+
+![image](https://user-images.githubusercontent.com/107069287/192385060-ce973d7f-135f-41d4-9336-d75934c80bc2.png)
+
+Aguarde até a conclusão do processo. 
+
+Em seguida vamos configurar a interface que irá se conectar diretamente com o ambiente do Azure. 
+
+Nessa primeira tela clique em Next: 
+
+![image](https://user-images.githubusercontent.com/107069287/192385371-7a7438a8-e7d3-465c-8375-8848804b4b94.png)
+
+Em interface Name, renomeie para FW-Azure e clique em Next: 
+
+![image](https://user-images.githubusercontent.com/107069287/192385645-21ac0cdf-f213-42a0-a92d-558bffdc2aa9.png)
+
+Em connection type, deixe marcado a opção Connect using virtual private networking e clique em next: 
+
+![image](https://user-images.githubusercontent.com/107069287/192385825-e8804c0d-a954-4ea8-9abc-86363287604d.png)
+
+Em VPN type, vamos marcar a opção IKEv2 e clicar em next novamente: 
+
+![image](https://user-images.githubusercontent.com/107069287/192386023-b9429b5a-57b6-4aee-a541-e38eb08fa83a.png)
+
+Nessa etapa, iremos precisar do ip publico do Azure. 
+
+Vá até o portal do azure: 
+
+No campo de pesquisa, digite Virtual Network Gateway: 
+
+![image](https://user-images.githubusercontent.com/107069287/192398226-0ed1b85c-f26d-4472-a39f-d6a59dc38015.png)
+
+Em seguida clique no Virtual Network Gateway que criamos, nesse exemplo é o VNG-01: 
+
+![image](https://user-images.githubusercontent.com/107069287/192398316-20d9cf06-3e99-4189-98e0-e7c2966bb91f.png)
+
+Em Overview, copie o ip público que foi dado a nossa VNG-01: 
+
+![image](https://user-images.githubusercontent.com/107069287/192398419-8d8930aa-42df-4715-aab5-64e7ab23c5c2.png)
+
+Copie o endereço e cole ele no nosso servidor de firewall: 
+
+![image](https://user-images.githubusercontent.com/107069287/192398491-414961c2-ce73-42eb-a4e0-a688624fa16a.png)
+
+Tenha o cuidado para deixar apenas o endereço no campo de endereço: 
+
+![image](https://user-images.githubusercontent.com/107069287/192398588-19f433f3-2f7e-4d4b-beb2-605222497410.png)
+
+Em seguida clique em next. 
+
+Em protocols and Security, mantenha a opção Route IP packets on this interface marcada e clique em next: 
+
+![image](https://user-images.githubusercontent.com/107069287/192398762-41f45b9f-3950-4c1a-aa16-3759f4155d43.png)
+
+Em static routes for remote network, clique add para adicionarmos todas as rotas do azure que precisamos que seja conectado: 
+
+![image](https://user-images.githubusercontent.com/107069287/192398928-dcf6670b-96aa-420f-be2a-f1ebd7c98b91.png)
+
+Cadastre todas as rotas do azure que determinamos: 
+
+![image](https://user-images.githubusercontent.com/107069287/192399090-3eb04b56-69f3-4cbe-8080-256a306fdf46.png)
+
+![image](https://user-images.githubusercontent.com/107069287/192399182-eedb45ba-665f-4839-9a86-aa319aeec611.png)
+
+![image](https://user-images.githubusercontent.com/107069287/192399296-7dde1b1d-2231-49ce-81f0-3843a890d387.png)
+
+![image](https://user-images.githubusercontent.com/107069287/192399374-9a31d114-3009-4fb6-9d19-aeeacba0d339.png)
+
+Após essa etapa clique em next. 
+
+Em Dial-Out Credentials, pode deixar em branco e clique em next: 
+
+![image](https://user-images.githubusercontent.com/107069287/192399563-8ba52fdd-fbf0-4218-9ee4-0e7c53132ae9.png)
+
+Complete a configuração clicando em finish: 
+
+![image](https://user-images.githubusercontent.com/107069287/192399638-c93c72f9-364c-4333-834f-30184c97245a.png)
+
+Depois dessa etapa, precisamos criar as rotas estáticas. 
+
+Clique em IPv4, em seguida Static Routes e com o botão direito do mouse clique em New Static Routes: 
+
+![image](https://user-images.githubusercontent.com/107069287/192399840-5b980916-a299-46f7-980b-f16ad8f6bd46.png)
+
+Configure as rotas conforme as imagens abaixo: <br>
+*altere de ethernet para FW-Azure a interface.*
+
+![image](https://user-images.githubusercontent.com/107069287/192400045-db3fc897-8d1e-4777-b7d2-aeb30d14c77b.png)
+
+![image](https://user-images.githubusercontent.com/107069287/192400141-04d67916-0768-4d2d-84a2-cfcd4043e4c6.png)
+
+![image](https://user-images.githubusercontent.com/107069287/192400196-2f500a17-9d43-491d-ab40-84ad17840944.png)
+
+![image](https://user-images.githubusercontent.com/107069287/192400282-dd038c27-a367-41bb-888f-30c9630825e9.png)
+
+Terminado esta etapa, vamos alterar algumas propriedades para concluirmos nossa configuração. 
+
+Clique em Network Interfaces e em seguida clique com o botão direito em FW-AZURE e selecione propriedades: 
+
+![image](https://user-images.githubusercontent.com/107069287/192400669-f5a14902-995f-4f2e-8108-b5f9971b37a9.png)
+
+Vá até a opção Security e altere a opção Use machine certificates para use preshared key for authentication e em seguida crie uma senha da sua escolha: 
+
+![image](https://user-images.githubusercontent.com/107069287/192400902-6b856ddd-b35c-4ad2-8a1f-e9851fca9258.png)
+
+Em seguida clique em ok. 
+
+*Opcional: Caso queira para fazer os testes de ping desabilite o firewall da máquina* 
+
+Por fim, no portal do azure, no campo de pesquisa, digite virtual macbine: 
+
+![image](https://user-images.githubusercontent.com/107069287/192401426-b0be1b63-8b3e-43a1-9592-6fc1a289ef90.png)
+
+Clique em VM-FW-OnPremises: 
+
+![image](https://user-images.githubusercontent.com/107069287/192401589-0683f2a1-31a4-45e0-9775-bd44c72b23ea.png)
+
+Em Settings, clique em Networking: 
+
+![image](https://user-images.githubusercontent.com/107069287/192401659-87c30c83-8e0e-485b-ac07-3c2cbede3b47.png)
+
+Clique na interface de rede que criamos: 
+
+![image](https://user-images.githubusercontent.com/107069287/192401749-2b8711a4-57f7-4fe4-8b0e-7169ba8199f8.png)
+
+Vá até IP Configurations: 
+
+![image](https://user-images.githubusercontent.com/107069287/192401840-bf7405a2-f3a8-44d6-ab6a-b31bab39b990.png)
+
+E habilite o IP Fowarding: 
+
+![image](https://user-images.githubusercontent.com/107069287/192401888-9da55ebf-cdf5-4d47-9ba1-059f1b4cff6c.png)
+
+Em seguida clique em Save. 
+
+Após essa etapa concluímos nossa tarefa.
+
+
+
+
+
+
+
 
 
 
