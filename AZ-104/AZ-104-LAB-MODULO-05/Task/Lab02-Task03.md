@@ -238,7 +238,6 @@ Copie o endereço e cole ele no nosso servidor de firewall:
 Tenha o cuidado para deixar apenas o endereço no campo de endereço: 
 
 ![image](https://user-images.githubusercontent.com/107069287/192398588-19f433f3-2f7e-4d4b-beb2-605222497410.png)
-
 Em seguida clique em next. 
 
 Em protocols and Security, mantenha a opção Route IP packets on this interface marcada e clique em next: 
