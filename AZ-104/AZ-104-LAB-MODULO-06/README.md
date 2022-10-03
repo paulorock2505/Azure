@@ -22,6 +22,10 @@ Você está encarregado de implementar uma topologia de rede. A topologia deve i
   </tr>
   </table>
 
-<h2>Diagrama da arquitetura:</h2> <br>
+<h2>Diagrama da arquitetura Load Balancer:</h2> <br>
 
 ![image](https://user-images.githubusercontent.com/107069287/193043776-ac66c4db-007c-49e1-aeb6-659a75eaf27b.png)
+
+<h2>Diagrama da arquitetura Application Gateway:</h2> <br>
+
+![image](https://user-images.githubusercontent.com/107069287/193655553-f2c47728-1365-4fec-88dd-c270ebc530c9.png)
