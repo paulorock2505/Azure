@@ -1,6 +1,6 @@
 # AZ-104-LAB-MOD-05
 
- <h2>Lab 05a - Configuração de VPN</h2> <br>
+ <h2>Lab 06a - Configuração de VPN</h2> <br>
 
  ***Tarefa 1:***  
     *Implementar Azure Load Balancer.*
@@ -458,6 +458,9 @@ Feito essas etapas todo o laboratório foi concluido com sucesso.
 *Tarefa Opcional:* <br>
 *- Pegue o IP público das máquinas e abram ele em dois navegadores diferentes para testar o balanceador.* <br>
 *- Desligue uma das máquinas e analise a resposta do load balancer.(note o tempo de resposta para enviar as requisições para a outra máquina)*
+
+***OBS: Para não atrapalhar a implementação seguinte, delete o Load Balancer que criamos nessa atividade. Os demais recursos pode manter para utilizarmos na próxima atividade.***
+
 
 
 
