@@ -335,6 +335,133 @@ Aguarde até o término do processamento.
 
 Terminado essa etapa, estamos com a estrutura pronta. Na sequência iremos agora de fato configurar o Load Balancer. 
 
+Vá até a home do portal e no campo de pesquisa digite Load Balancers: 
+
+![image](https://user-images.githubusercontent.com/107069287/193595578-9a3d8ded-1882-4097-9aba-1a45d5c31d6a.png)
+
+Em seguida vamos em + Create: 
+
+![image](https://user-images.githubusercontent.com/107069287/193599904-e582ab78-453d-45ce-8052-3c604599622f.png)
+
+Em Basics, configure os parametros abaixo conforme a imagem abaixo: 
+
+![image](https://user-images.githubusercontent.com/107069287/193601667-d4c7088d-210c-4308-b328-623d19b1eead.png)
+
+Em seguida clique em next. 
+
+Clique em + Add a frontend IP configuration: 
+
+![image](https://user-images.githubusercontent.com/107069287/193601104-89c7a4bc-8fe2-44cd-a616-d49ad5c244e2.png)
+
+Preencha conforme a imagem abaixo e em seguida em Public IP Address clique em Create New: 
+
+![image](https://user-images.githubusercontent.com/107069287/193602251-e596ac53-ce05-404a-8aec-3679e1b65962.png)
+
+Preencha os parametros conforme a imagem abaixo e clique em Ok. 
+
+![image](https://user-images.githubusercontent.com/107069287/193602636-8faa5824-4d79-4ea5-9c4e-619a9b227b7c.png)
+
+Em seguida clique em Add. 
+
+Em seguida clique em Next. 
+
+Em Backend Pools, clique em + Add a backend pool: 
+
+![image](https://user-images.githubusercontent.com/107069287/193603524-f52a6d45-b6c9-4e8c-9c81-2fc6b52bcb5d.png)
+
+Preencha o campo conforme a imagem e em seguida no campo IP Configuration clique em + Add: 
+
+![image](https://user-images.githubusercontent.com/107069287/193604386-28d266db-5576-4d5d-8f8c-5af75f1c5d55.png)
+
+Marque as 2 VMs que criamos e clique em Add: 
+
+ ![image](https://user-images.githubusercontent.com/107069287/193604646-d8bc6112-c88f-4a31-94c2-b0b40a099db3.png)
+
+Clique em Save: 
+
+![image](https://user-images.githubusercontent.com/107069287/193604769-c8627239-c021-4c37-b88a-a987adb285e9.png)
+
+Clique em Next. 
+
+Em inbound rules clique em + Add a load balancing rule: 
+
+![image](https://user-images.githubusercontent.com/107069287/193605399-7def5176-5e7a-4da3-8902-495ba8f0f4bb.png)
+
+Configure a regra conforme a imagem e em seguida em Health probe, clique em Create New: 
+
+![image](https://user-images.githubusercontent.com/107069287/193605877-f214d980-ce7f-4187-89e5-88c15b535deb.png)
+
+Configure os parâmetros conforme a imagem e em seguida clique em Ok. 
+
+![image](https://user-images.githubusercontent.com/107069287/193606822-0a5621d6-a557-41f6-943c-3ff6d18409da.png)
+
+Em seguida, clique em Add. 
+
+![image](https://user-images.githubusercontent.com/107069287/193607841-c21b3afe-c455-4312-bd9d-ca72ad40d522.png)
+
+Em seguida clique em Next. 
+
+Em Outbound Rules, não faremos nenhuma alteração: 
+
+![image](https://user-images.githubusercontent.com/107069287/193609084-2e695447-57a1-428e-9f17-f930ef2592a1.png)
+
+Clique em Next. 
+
+Em TAGs, preencha conforme o nosso scopo do laboratório: 
+
+ ![image](https://user-images.githubusercontent.com/107069287/193609327-e1d64eb4-2f05-404e-bee1-b2c8d616ad95.png)
+
+Clique em Review + Create e em seguida Create. 
+
+Configurado o Load Balancer, vamos seguir liberando a porta 80 no Network Security Group para que a aplicação esteja habilitada para acessarmos. 
+
+Vá até o home novamente, no campo de pesquisa digite Network Security Group: 
+
+![image](https://user-images.githubusercontent.com/107069287/193633015-3c4e862a-9f7c-4bad-aaf5-a116b67a0a03.png)
+
+Em seguida, clique em NSG-AZ104-06: 
+
+![image](https://user-images.githubusercontent.com/107069287/193633117-d2ba0901-cc1d-460d-b13f-17377286bbf1.png)
+
+Antes, precisamos copiar os IPs privados de cada máquina Virtual que criamos. 
+
+Abra uma nova guia e vá em Virtual Machines: 
+
+![image](https://user-images.githubusercontent.com/107069287/193633567-ba14bf15-f9fe-43aa-8c87-7f7269b0eb19.png)
+
+Acesse a VM-01: 
+
+![image](https://user-images.githubusercontent.com/107069287/193633913-c1c5667e-e3b1-4a43-82d3-e6f19c80afc4.png)
+
+E copie o endereço que está aparecendo em Private IP Address: 
+
+![image](https://user-images.githubusercontent.com/107069287/193634075-f6d73786-41a7-431d-bd5a-c3c1f2e833b6.png)
+
+Salve esse endereço em um bloco de notas e repita o mesmo processo para VM-02. 
+
+Volte até a guia onde está aberto a área do NSG e agora vamos configurar as regras de acesso. 
+
+Na página principal do Network Security Group, vá até o campo settings e clique em Inbound security rules: 
+
+![image](https://user-images.githubusercontent.com/107069287/193634986-3e58c692-0fde-49a8-9a62-39cf3fdcd8d6.png)
+
+Em seguida clique em + Add: 
+
+![image](https://user-images.githubusercontent.com/107069287/193635090-4f029739-f3d6-47e6-a496-9da379c9979c.png)
+
+Configure a regra conforme a imagem abaixo e clique em Add: 
+
+![image](https://user-images.githubusercontent.com/107069287/193635880-bc7ed571-c916-41f3-bb14-8ed714809f8e.png)
+
+Feito essas etapas todo o laboratório foi concluido com sucesso. 
+
+*Tarefa Opcional:* <br>
+*- Pegue o IP público das máquinas e abram ele em dois navegadores diferentes para testar o balanceador.* <br>
+*- Desligue uma das máquinas e analise a resposta do load balancer.(note o tempo de resposta para enviar as requisições para a outra máquina)*
+
+
+
+
 
 
 
