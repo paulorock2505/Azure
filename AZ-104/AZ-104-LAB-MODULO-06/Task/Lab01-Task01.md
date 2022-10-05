@@ -1,4 +1,4 @@
-# AZ-104-LAB-MOD-05
+# AZ-104-LAB-MOD-06
 
  <h2>Lab 06a - Configuração de VPN</h2> <br>
 
