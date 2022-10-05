@@ -31,6 +31,10 @@ Você precisa avaliar o uso do armazenamento do Azure para armazenar arquivos qu
   </tr>
     <tr>
     <td>Tarefa 5:</td>
+    <td>Configurar o Azure File Sync</td>
+  </tr>
+    <tr>
+    <td>Tarefa 6:</td>
     <td>Gerenciar o acesso a rede para Azure Storage</td>
   </tr>
   </table>
