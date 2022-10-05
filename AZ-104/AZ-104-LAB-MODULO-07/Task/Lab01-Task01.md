@@ -25,5 +25,45 @@ Em TAGs, nesse laboratório não vamos adicionar nada. Apenas clique em Next.
 
 Em seguida clique em Review + Create e em seguida Create. 
 
+Volte a home do portal e no campo de pesquisa digite Storage Account: 
 
+![image](https://user-images.githubusercontent.com/107069287/194081846-9fd21ba0-94f7-4295-aa6d-a31318b07e06.png)
 
+Clique em + Create: 
+
+![image](https://user-images.githubusercontent.com/107069287/194081960-8d6e622e-0cac-4b6a-8ff0-35d2e83825cd.png)
+
+Digite os parametros conforme demostrado na imagem abaixo: <br>
+ *OBS: O nome do storage account precisa ser um nome único, utilize um nome de sua preferência.*
+
+ ![image](https://user-images.githubusercontent.com/107069287/194086485-56188c09-d0d0-4589-bbc9-87898223831f.png)
+
+ ![image](https://user-images.githubusercontent.com/107069287/194086580-faa056c1-fad1-4bef-8234-369c7242d97c.png)
+
+ Em seguida clique em Next. 
+
+ Na guia Advanced, manteremos o padrão do azure conforme a imagem abaixo para desenvolver este laboratório: 
+
+![image](https://user-images.githubusercontent.com/107069287/194091070-19063c3f-8813-4bd6-9e64-df6153e02a5c.png)
+
+![image](https://user-images.githubusercontent.com/107069287/194091149-c0bdbd6d-c744-4de8-8ce5-34a5970f39c6.png)
+
+![image](https://user-images.githubusercontent.com/107069287/194091267-b714a3f8-be4a-44ec-9b4c-88bb93fbdd2e.png)
+
+Clique em Next. 
+
+Em Network vamos manter a opção padrão do portal: 
+
+![image](https://user-images.githubusercontent.com/107069287/194093229-f8bd5902-dfea-4758-8ac3-6628df82e032.png)
+
+![image](https://user-images.githubusercontent.com/107069287/194093284-8bbb8360-a1aa-476c-8363-b4b313f72634.png)
+
+Em Data Protection, também manteremos os padrões conforme a imagem abaixo: 
+
+![image](https://user-images.githubusercontent.com/107069287/194094896-a81bf8cb-6b7c-4bda-9a8e-47e29c51c709.png)
+
+![image](https://user-images.githubusercontent.com/107069287/194095005-a91851a3-f491-426e-a941-9b458c5d309a.png)
+
+Por fim clique em Review e em seguida Create. 
+
+Feito esta etapa a tarefa foi concluída com êxito. 
