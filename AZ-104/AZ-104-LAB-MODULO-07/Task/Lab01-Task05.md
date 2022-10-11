@@ -227,6 +227,104 @@ Em seguida clique no File Share que criamos:
 
 Em seguida clique em Create. 
 
+Após essa etapa, nós precisamos registrar o nosso servidor. 
+
+Volte para a meno principal do storage que criamos e clique em Registered Servers: 
+
+![image](https://user-images.githubusercontent.com/107069287/195107374-d4854301-a9a4-48fb-a7aa-7b7914632c79.png)
+
+Clique com o botão direito em Azure File Sync Agent e copie o link: 
+
+![image](https://user-images.githubusercontent.com/107069287/195107633-d2fb41ff-5f5d-438e-a9a7-99a8903fd842.png)
+
+Cole o link no navegador da Virtual Machine. <br>
+
+![image](https://user-images.githubusercontent.com/107069287/195156241-51fca3f2-ec3b-482e-9d85-ab4c01dee7fc.png)
+
+*OBS: Para que o navegador não fique bloqueando todos os links de internet vá até o Server Manager, Clique em Local Server e na opção IE Enhanced Security Configuration marque Off: 
+
+![image](https://user-images.githubusercontent.com/107069287/195156052-0a285425-c86a-46cf-baf9-e4598c2383ba.png)
+
+Feito isso, atente-se para fazer o download da versão correta do sistema operacional para que todas as funcionalidades fiquem ativas no sistema operacional: 
+
+![image](https://user-images.githubusercontent.com/107069287/195156998-2226ccbc-51da-4edf-809c-c5b80dd25076.png)
+
+Feito o download do Agent, você será direcionado ao Wizard de instalação. Na primeira tela de boas vindas pode clicar em Next: 
+
+![image](https://user-images.githubusercontent.com/107069287/195157218-bf13fb50-5f49-4787-bfdb-2e03f65f92b5.png)
+
+Aceite os termos de uso e clique em Next: 
+
+![image](https://user-images.githubusercontent.com/107069287/195157309-a6898b34-d927-4313-9d58-a792ea9d8452.png)
+
+A partir daqui todas as opções que escolheremos será default mesmo: 
+
+![image](https://user-images.githubusercontent.com/107069287/195158121-3a4dfa87-74cc-4e55-83b8-6ef386a49364.png)
+
+![image](https://user-images.githubusercontent.com/107069287/195158169-8caa4864-37a3-43e0-a930-e699f9116c50.png)
+
+![image](https://user-images.githubusercontent.com/107069287/195158254-34c4d41e-f405-41a3-90fa-93403e912616.png)
+
+![image](https://user-images.githubusercontent.com/107069287/195158312-bd58b30a-af84-4ccd-ba3e-fa312560f326.png)
+
+Aguarde até o término da instalação e clique em finish. 
+
+Fnalizado essa etapa, agora faremos a parte do registro. 
+
+Nessa primeira tela clique em Ok: 
+
+![image](https://user-images.githubusercontent.com/107069287/195159206-3ca0d41f-444d-4d22-9afa-c2d83124c8f9.png)
+
+Escolha o Azure Cloud e clique em Sign in: 
+
+![image](https://user-images.githubusercontent.com/107069287/195159357-66742f44-c86b-4924-b89e-e71510ff9ffb.png)
+
+Logue com sua conta azure: 
+
+![image](https://user-images.githubusercontent.com/107069287/195159447-3789c108-1879-42c1-a96b-8c0d0a81ffad.png)
+
+Após o login faça o registro de sua conta e preencha os campos conforme estruturamos em nosso laboratório. Em seguida clique em Register: 
+
+![image](https://user-images.githubusercontent.com/107069287/195161103-4be13a34-2487-40b0-9af8-99b181bd191a.png)
+
+Aguarde até finalizar o registro e aparecer a mensagem Registration Successfull: 
+
+![image](https://user-images.githubusercontent.com/107069287/195162212-07b28723-b332-4eae-af77-e901c47e327e.png)
+
+Feito essa etapa, volte ao portal do Azure e aguarde até o servidor aparecer na lista de servidores registrados: 
+
+![image](https://user-images.githubusercontent.com/107069287/195162405-5e324de4-d84f-43fa-ac77-889dd08d8d15.png)
+
+Em seguida clique em Sync Groups: 
+
+![image](https://user-images.githubusercontent.com/107069287/195162566-844d9740-6188-4b1e-899c-97b316c7baea.png)
+
+Clique em Group-FS: 
+
+![image](https://user-images.githubusercontent.com/107069287/195162775-a1c14a97-d737-43d4-84be-766877549593.png)
+
+Clique em Add Server Endpoint: 
+
+![image](https://user-images.githubusercontent.com/107069287/195162924-1b6e5b31-09f9-451d-a7f1-3de8fc70e96a.png)
+
+Em seguida configure a política conforme a imagem abaixo: 
+
+![image](https://user-images.githubusercontent.com/107069287/195164364-896d7e53-657d-41f5-b926-159260ade602.png)
+
+Em seguida clique em Create. 
+
+Aguarde até que a sincronização seja concluida: 
+
+![image](https://user-images.githubusercontent.com/107069287/195165949-6507561c-b8dc-44ba-92b0-0c7cec83caa0.png)
+
+Feito essa etapa a tarefa foi concluída com sucesso. 
+
+*Tarefa Optativa: Vá até o blob que criamos e confira se toda a estrutura da pasta de arquivos que criamos no servidor consta no blob e navegue entre elas. Note que todos os arquivos que foram enviados estão replicados no file share que criamos.*
+
+
+
+
+
 
 
 
