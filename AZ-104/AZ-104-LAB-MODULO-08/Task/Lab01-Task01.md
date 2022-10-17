@@ -1,4 +1,4 @@
-# AZ-104-LAB-MOD-07
+# AZ-104-LAB-MOD-08
 
  <h2>Lab 08 - Manage Azure Storage</h2> <br>
 
