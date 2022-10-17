@@ -104,7 +104,7 @@ Em seguida clique em Add inbound port rule:
 
 Preencha os campos conforme a imagem abaixo e em seguida clique em Add: 
 
-![image](https://user-images.githubusercontent.com/107069287/196245660-b8dbeebe-eef7-4d9f-8a6f-b99eb5188998.png)
+![image](https://user-images.githubusercontent.com/107069287/196246253-31c8e374-236e-4edb-a308-302daeec4c64.png)
 
 Feito essa etapa a tarefa foi concluída. 
 
