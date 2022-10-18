@@ -17,7 +17,7 @@ Clique em + Create para criarmos a estrutura:
 
 ![image](https://user-images.githubusercontent.com/107069287/196452755-bc3638eb-5315-40ed-8fe3-4d9e18eb1198.png)
 
-Preencha os campos conforme a imagem abaixo: 
+Preencha os campos confrme a imagem abaixo: 
 
 ![image](https://user-images.githubusercontent.com/107069287/196454037-fe701c29-fed1-42ac-8717-00272a22184e.png)
 
@@ -192,10 +192,3 @@ Pare o teste e note o processo de destruição das instâncias até chegar novam
 ![image](https://user-images.githubusercontent.com/107069287/196500963-9cc04591-498e-4fe0-8441-b42307f5ef94.png)
 
 Feito esse teste a atividade foi concluída. 
-
-
-
-
-
-
-
