@@ -1,6 +1,5 @@
-# AZ-104-LAB-MOD-08
-
- <h2>Lab 09 - Manage Azure Storage </h2> <br>
+# AZ-104-LAB-MOD-09
+ <h2>Lab 09a - Manage Azure Storage </h2> <br>
   
 <h3>Lab Scenario:</h3> <br>
 
