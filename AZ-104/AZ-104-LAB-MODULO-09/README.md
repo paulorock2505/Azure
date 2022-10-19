@@ -39,7 +39,7 @@ Você precisa avaliar o uso de aplicativos da Web do Azure palra hospedar sites 
   </table>
 
   # AZ-104-LAB-MOD-09
- <h2>Lab 09b - Manage Azure Storage </h2> <br>
+ <h2>Lab 09b - Implement Azure Instances Container</h2> <br>
   
 <h3>Lab Scenario:</h3> <br>
 
