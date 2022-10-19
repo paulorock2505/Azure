@@ -37,3 +37,23 @@ Você precisa avaliar o uso de aplicativos da Web do Azure palra hospedar sites 
     <td>Configure e teste o autoscaling do Azure web app.</td>
   </tr>   
   </table>
+
+  # AZ-104-LAB-MOD-09
+ <h2>Lab 09b - Manage Azure Storage </h2> <br>
+  
+<h3>Lab Scenario:</h3> <br>
+
+A ALPA deseja encontrar uma nova plataforma para suas cargas de trabalho virtualizadas. Você identificou várias imagens de contêiner que podem ser aproveitadas para atingir esse objetivo. Como deseja minimizar o gerenciamento de contêiners, você planeja avaliar o uso de instâncias de contêiner do azure para implantação de imagens docker. 
+
+<h3>Objetivos:</h3>  
+
+<table border="1">    
+  <tr>
+    <th colspan="1">Task</th>  	              
+    <th colspan="2">Action</th>
+  </tr>
+<tr>
+<td>Tarefa 1:</td>
+    <td>Implantar uma imagem Docker usando a instância do contêiner do Azure e executar teste de acesso.</td>
+  </tr>
+</table>
