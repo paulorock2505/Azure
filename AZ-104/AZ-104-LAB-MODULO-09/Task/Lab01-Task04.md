@@ -3,7 +3,7 @@
  <h2>Lab 09a - Manage Azure Storage</h2> <br>
 
  ***Tarefa 4:***  
-    *	Implante o código para o slot de testes.*
+    *Implante o código para o slot de testes.*
 
 Abra o portal e acesse o cloudshell no primeiro ícone a direita do painel: 
 
