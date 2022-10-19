@@ -2,5 +2,5 @@
 
  <h2>Lab 09b - Implement Azure Instances Container</h2> <br>
 
- ***Tarefa 6:***  
-    *Configure e teste o autoscaling do Azure web app.*
+ ***Tarefa 1:***  
+    *Implantar uma imagem Docker usando a instância do contêiner do Azure e executar teste de acesso.*
