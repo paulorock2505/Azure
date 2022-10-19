@@ -69,7 +69,7 @@ Configure os parametros conforme a imagem abaixo:
 
 ![image](https://user-images.githubusercontent.com/107069287/196788916-dfa88276-bd4c-4acf-bc63-0b98eb614bcb.png)
 
-![image](https://user-images.githubusercontent.com/107069287/196789028-5f06575d-d8c5-4c66-8ed2-73aa0d45f310.png)
+![image](https://user-images.githubusercontent.com/107069287/196791041-cbbb2280-05be-441a-88b9-ea29f7802128.png)
 
 Clique em Add. 
 
@@ -88,4 +88,8 @@ $webapp = Get-AzWebApp -ResourceGroupName $rgName
 while ($true) { Invoke-WebRequest -Uri $webapp.DefaultHostName }
 
 ![image](https://user-images.githubusercontent.com/107069287/196782835-38a4c8c6-da4d-4903-865e-d5f8e4fac7f3.png)
+
+Feito essa etapa, perceba que as instâncias foram criadas e em seguida conforme as requisições diminuem elas são eliminadas da mesma forma que vimos na atividade de Scale Set com as VMs. 
+
+Concluido esse processo o laboratório foi concluido. 
 
