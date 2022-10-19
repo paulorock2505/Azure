@@ -93,3 +93,6 @@ Feito essa etapa, perceba que as instâncias foram criadas e em seguida conforme
 
 Concluido esse processo o laboratório foi concluido. 
 
+Terminado essa atividade pode deletar os App Services que criamos. 
+
+![image](https://user-images.githubusercontent.com/107069287/196795223-63ba630d-c654-433c-ae6d-bcbd8cd3d619.png)
