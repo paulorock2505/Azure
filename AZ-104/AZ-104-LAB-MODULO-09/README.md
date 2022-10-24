@@ -38,7 +38,7 @@ Você precisa avaliar o uso de aplicativos da Web do Azure palra hospedar sites 
   </tr>   
   </table>
 
-  # AZ-104-LAB-MOD-09
+
  <h2>Lab 09b - Implement Azure Instances Container</h2> <br>
   
 <h3>Lab Scenario:</h3> <br>
@@ -55,5 +55,24 @@ A ALPA deseja encontrar uma nova plataforma para suas cargas de trabalho virtual
 <tr>
 <td>Tarefa 1:</td>
     <td>Implantar uma imagem Docker usando a instância do contêiner do Azure e executar teste de acesso.</td>
+  </tr>
+</table>
+
+ <h2>Lab 09c - Implement Azure Kubernets Service</h2> <br>
+  
+<h3>Lab Scenario:</h3> <br>
+
+A ALPA tem vários aplicativos multicamadas que não são adequados para serem executados usando instâncias de conteiner do Azure. Para determinar se eles podem ser executados como cargas de trabalho em contêiners, você deseja avaliar o uso do Kubernetes como orquestrador de contêineres. Para minimizar a sobrecarga de gerenciamento, você deseja testar o Serviço Kubernets do Azure, incluindo sua experiência de implantação simplificada e dimensionamento.
+
+<h3>Objetivos:</h3>  
+
+<table border="1">    
+  <tr>
+    <th colspan="1">Task</th>  	              
+    <th colspan="2">Action</th>
+  </tr>
+<tr>
+<td>Tarefa 1:</td>
+    <td>Implantar um cluster do Azure Kubernetes Service e realizar tarefas de gerenciamento. </td>
   </tr>
 </table>
