@@ -75,6 +75,149 @@ Ao abrir clique no quinto item da esquera para a direita para abrir o CloudShell
 
 ![image](https://user-images.githubusercontent.com/107069287/198103011-aaf17921-cb76-4631-b604-56682feb53b2.png)
 
+Faça o download dos arquivos abaixo para usar como guia para a execução dos comando a seguir: 
+
+[Yaml-AKS (1).txt](https://github.com/paulorock2505/Microsoft-Azure-Jobs/files/9872547/Yaml-AKS.1.txt)
+
+[AKS (1).txt](https://github.com/paulorock2505/Microsoft-Azure-Jobs/files/9872558/AKS.1.txt)
+
+Abra o arquivo e execute os dois primeiros comandos: 
+
+az provider show -n Microsoft.OperationsManagement -o table <br>
+az provider show -n Microsoft.OperationalInsights -o table <br>
+
+![image](https://user-images.githubusercontent.com/107069287/198104150-90396768-f88c-485e-b718-142870719689.png)
+
+![image](https://user-images.githubusercontent.com/107069287/198104219-6ca2ca65-7789-4023-ab1e-eac7b5fd1a4a.png)
+
+Caso ele retorne o comando como mostrado na tela, NotRegistred, use o comando a seguir para registrar: 
+
+az provider register --namespace Microsoft.OperationsManagement <br>
+az provider register --namespace Microsoft.OperationalInsights <br> 
+
+Note, que depois de executar, ao usar o az provider show -n (OperationsManagement e OperationalInsights)
+o retorno será Registered: 
+
+![image](https://user-images.githubusercontent.com/107069287/198105265-7e45fdb0-5f97-43c2-909f-2dc814006ce5.png)
+
+Na segunda etapa iremos criar o Resource Group: 
+
+az group create --name "RG-ALPALABS" --location eastus <br>
+
+![image](https://user-images.githubusercontent.com/107069287/198105831-cf107d69-a0f0-4e1d-af18-d8df15552f71.png)
+
+![image](https://user-images.githubusercontent.com/107069287/198105892-5dddf425-8b15-4af1-add3-0992d0b14899.png)
+
+Na terceira etapa iremos fazer a configuração do Cluster: 
+
+az aks create --resource-group "RG-ALPALABS" --name AKSALPA01 --node-count 1 --enable-addons monitoring --generate-ssh-keys <br>
+
+![image](https://user-images.githubusercontent.com/107069287/198106204-c33e90fe-2327-4d0f-9fe6-76094aa9e14d.png)
+
+Aguarde até o fim do deploy. 
+
+Na sequência, baixe as credenciais de acesso: 
+
+az aks get-credentials --resource-group "RG-ALPALABS" --name AKSALPA01
+
+![image](https://user-images.githubusercontent.com/107069287/198110179-069da977-fe72-4a84-8a14-f98e32edbfe4.png)
+
+Valide o deploy dos nodes: 
+
+kubectl get nodes 
+
+![image](https://user-images.githubusercontent.com/107069287/198110475-310cb2c5-1697-452d-97c1-d56f90c136f2.png)
+
+![image](https://user-images.githubusercontent.com/107069287/198110535-5c1603b3-ed61-4674-bddb-7575618ba0f4.png)
+
+Na sequência iremos criar um arquivo Yaml para testarmos a nossa aplicação. Acesse o visual code dentro do azure para criarmos a nossa estrutua: 
+
+code azure-vote.yaml
+
+![image](https://user-images.githubusercontent.com/107069287/198111824-585ed59e-c806-4482-9de9-ab6632253642.png)
+
+Note que abrirá um arquivo vazio. Ainda não criamos o nosso código. 
+
+![image](https://user-images.githubusercontent.com/107069287/198111952-1b83197b-3c6c-4452-aa21-77880e7a3456.png)
+
+Abra o arquivo que foi disponibilizado no ínicio, YAML-AKS, abra em um bloco de notas, copie o código por completo e cole no visual code no portal: 
+
+![image](https://user-images.githubusercontent.com/107069287/198112889-db73860f-8255-4c35-9cff-15d4c8e59431.png)
+
+Em seguida clique com o botão direito do mouse e clique em Save e em seguida Quit. 
+
+Agora iremos fazer o Deploy do arquivo Yaml: 
+
+kubectl apply -f azure-vote.yaml
+
+![image](https://user-images.githubusercontent.com/107069287/198114315-77d7e3e8-ac41-4502-8843-a68ddf27b570.png)
+
+Na sequência verifique se o IP da aplicação. Utilize o comando abaixo: 
+
+kubectl get service azure-vote-front --watch
+
+![image](https://user-images.githubusercontent.com/107069287/198114706-a5cdd0b4-6836-4ded-bdc1-b838844f9acc.png)
+
+*Note que o ip público está sendo fornekcido por um load balancer* 
+
+Dê um Ctrl + C para parar a escuta da aplicação. 
+
+Vamos validar os deployments com o comando abaixo: 
+
+kubectl get deployments
+
+![image](https://user-images.githubusercontent.com/107069287/198116005-6b813bbb-f840-4d53-bb0c-f4f1895d0169.png)
+
+Note que agora possuímos duas aplicações: 
+
+![image](https://user-images.githubusercontent.com/107069287/198116126-62dd1593-cca0-468d-b210-5dcf770fcebc.png)
+
+Valide os pods que foram criados com o comando abaixo: 
+
+kubectl get pods --show-labels
+
+![image](https://user-images.githubusercontent.com/107069287/198116564-30b1dae0-5933-4f2c-94c5-b0eaffae93fa.png)
+
+![image](https://user-images.githubusercontent.com/107069287/198116602-bb5920b0-e5bf-47b2-8dc6-7854931a7596.png)
+
+Vamos escalar nossa aplicação adicionando mais um pod: 
+
+kubectl scale --replicas=2 deployment/azure-vote-front 
+
+Note que em 4 s ele cria uma nova instância: 
+
+![image](https://user-images.githubusercontent.com/107069287/198117854-c0eac1c8-a200-4a3f-bd39-5a179a36b6f2.png)
+
+Altere as replicas para 10 e veja o resultado: 
+
+kubectl scale --replicas=10 deployment/azure-vote-front
+
+Note a velocidade que é criado cada pod. 
+
+![image](https://user-images.githubusercontent.com/107069287/198118525-dc88f1ac-4468-4cdb-b15a-47d6edb233ac.png)
+
+Note que após a criação, ainda ficou um node com status de pending: 
+
+![image](https://user-images.githubusercontent.com/107069287/198129069-73d85799-17e7-4d0b-bcec-3d5ba077de31.png)
+
+Vamos instanciar novos pods com o comando abaixo: 
+
+az aks scale --resource-group "RG-ALPALABS" --name AKSALPA01 --node-count 2
+
+Após a criação do node o status de pending da máquina ficou no mesmo estado que as outras: 
+
+![image](https://user-images.githubusercontent.com/107069287/198133546-5b616046-0a5c-471e-8d4e-5f443ab346e7.png)
+
+Por fim valide em qual node estão os pods com o comando abaixo: 
+
+kubectl get pod -o=custom-columns=NODE:.spec.nodeName,POD:.metadata.name
+
+![image](https://user-images.githubusercontent.com/107069287/198133806-cd3fb0e4-4900-4cbd-bf93-1ea395b0f1d2.png)
+
+Após essa etapa a atividade foi concluída com sucesso. 
+
+Pode remover todos os recursos que criamos neste laboratório. 
+
 
 
 
