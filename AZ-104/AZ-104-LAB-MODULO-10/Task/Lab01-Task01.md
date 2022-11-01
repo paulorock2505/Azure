@@ -53,7 +53,7 @@ Em TAGs, preencha as informações conforme a imagem:
 
 Clique em Review + Create e em seguida Create. 
 
-
+Feito essa etapa, a task foi concluída com sucesso. 
 
 
 
