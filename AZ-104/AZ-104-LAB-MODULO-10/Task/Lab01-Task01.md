@@ -29,5 +29,31 @@ Clique em Ok. Em seguida preencha os outros parâmetros conforme a imagem abaixo
 
 Clique em Review + Create. 
 
+Após a criação vá em Go to Resource e em seguida valide a criação da máquina e de seus recursos no campo Overview: 
+
+![image](https://user-images.githubusercontent.com/107069287/199309064-251b5639-8b95-4070-b94e-4d0db17a5049.png)
+
+Feito está etapa, vá ao campo de pesquisa e digite Recovery Service Vault: 
+
+![image](https://user-images.githubusercontent.com/107069287/199309192-0c598191-72bc-4518-9a6b-1a6aa132c3b8.png)
+
+Clique em + Create: 
+
+![image](https://user-images.githubusercontent.com/107069287/199309996-5d2fc195-79a5-4909-8106-ce4f96f0e58b.png)
+
+Em seguida preencha os campos conforme a imagem abaixo: 
+
+![image](https://user-images.githubusercontent.com/107069287/199310350-d91d1941-a884-46d7-8f47-63865cc0814a.png)
+
+Clique em Next. 
+
+Em TAGs, preencha as informações conforme a imagem: 
+
+![image](https://user-images.githubusercontent.com/107069287/199310426-624f6b97-ef34-4e85-b451-c4d593bf3329.png)
+
+Clique em Review + Create e em seguida Create. 
+
+
+
 
 
