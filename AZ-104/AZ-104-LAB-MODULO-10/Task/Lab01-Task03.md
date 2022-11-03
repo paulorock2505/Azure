@@ -3,7 +3,7 @@
  <h2>Lab 10 - Azure Backup</h2> <br>
 
  ***Tarefa 3:***  
-    *	Implementar backup de arquivos e pastas em máquinas on-premisses com cliente MARS.*
+    *Implementar backup de arquivos e pastas em máquinas on-premisses com cliente MARS.*
 
 No portal do Azure, no campo de pesquisa, digite Recovery Services Vault e em seguida clique na opção marcada na imagem: 
 
